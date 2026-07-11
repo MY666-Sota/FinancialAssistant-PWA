@@ -51,6 +51,8 @@
     }
 
     button,
+    input,
+    dialog,
     summary {
       font: inherit;
     }
@@ -552,6 +554,165 @@
       line-height: 1.35;
     }
 
+    .search-panel {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .text-input {
+      width: 100%;
+      min-height: 42px;
+      padding: 9px 11px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--ink);
+      background: #ffffff;
+      outline: none;
+    }
+
+    .text-input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    }
+
+    .command-button,
+    .secondary-button,
+    .danger-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+      cursor: pointer;
+    }
+
+    .command-button {
+      color: #ffffff;
+      background: #15213b;
+    }
+
+    .secondary-button {
+      border: 1px solid var(--line);
+      background: var(--surface);
+    }
+
+    .danger-button {
+      color: #a51d28;
+      border: 1px solid rgba(217, 54, 62, 0.28);
+      background: rgba(217, 54, 62, 0.06);
+    }
+
+    .command-button:disabled,
+    .secondary-button:disabled {
+      cursor: default;
+      opacity: 0.48;
+    }
+
+    .watch-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .watch-card {
+      padding: 13px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--surface);
+    }
+
+    .watch-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .watch-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      margin-top: 9px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .scope-note {
+      margin: 9px 2px 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .portfolio-empty {
+      min-height: 0;
+      padding: 14px 0 0;
+      text-align: left;
+    }
+
+    .settings-dialog {
+      width: min(92vw, 520px);
+      max-height: 88vh;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .settings-dialog::backdrop {
+      background: rgba(15, 23, 42, 0.42);
+    }
+
+    .settings-form {
+      display: grid;
+      gap: 13px;
+      padding: 18px;
+    }
+
+    .settings-form h2,
+    .settings-form p {
+      margin: 0;
+    }
+
+    .settings-form p {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .field-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 11px;
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+      min-width: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
     .bottom-nav {
       position: fixed;
       right: 0;
@@ -559,7 +720,7 @@
       left: 0;
       z-index: 30;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 4px;
       padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
       background: rgba(255, 255, 255, 0.94);
@@ -620,6 +781,16 @@
         grid-template-columns: 1fr;
       }
     }
+
+    @media (max-width: 430px) {
+      .field-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-btn {
+        font-size: 12px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -656,6 +827,7 @@
     <nav class="bottom-nav" id="bottomNav" aria-label="主导航"></nav>
   </div>
   <div class="toast" id="toast"></div>
+  <dialog class="settings-dialog" id="settingsDialog"></dialog>
 
   <script>
     const CONFIG = {
@@ -1361,5 +1533,6 @@
 
     boot();
   </script>
+  <script src="./features.js"></script>
 </body>
 </html>

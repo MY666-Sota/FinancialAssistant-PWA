@@ -1,9 +1,10 @@
-const CACHE_NAME = "fund-radar-v2";
+const CACHE_NAME = "fund-radar-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.json",
   "./service-worker.js",
+  "./features.js",
   "./icons/icon.svg",
   "./icons/icon-192.png",
   "./icons/icon-512.png"
