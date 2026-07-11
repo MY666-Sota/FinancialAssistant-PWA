@@ -1,6 +1,6 @@
 window.__FUND_DATA__ = {
-  "version": "1.0.0",
-  "generated_at": "2026-07-11T21:40:53+08:00",
+  "version": "1.1.0",
+  "generated_at": "2026-07-11T22:24:46+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "primary": "eastmoney_tiantian_public_endpoints",
@@ -16,11 +16,21 @@ window.__FUND_DATA__ = {
     "down_count": 2,
     "flat_count": 0
   },
+  "portfolio": {
+    "configured_holding_count": 0,
+    "total_cost": 0.0,
+    "total_market_value": 0.0,
+    "total_profit_amount": 0.0,
+    "total_return_pct": null,
+    "estimated_daily_profit": 0.0
+  },
   "funds": [
     {
       "code": "008585",
       "alias": "科技成长观察",
       "target_weight": null,
+      "holding_amount": 0.0,
+      "cost_nav": null,
       "tags": [
         "科技",
         "成长"
@@ -3295,12 +3305,26 @@ window.__FUND_DATA__ = {
       "holdings_report_date": "2026-03-31",
       "scale": "10.11",
       "scale_date": "2026-03-31",
-      "warnings": []
+      "warnings": [],
+      "holding": {
+        "holding_amount": 0.0,
+        "cost_nav": null,
+        "target_weight": null,
+        "units": null,
+        "market_value": null,
+        "profit_amount": null,
+        "return_pct": null,
+        "estimated_daily_profit": null,
+        "actual_weight": null,
+        "weight_drift_pct_points": null
+      }
     },
     {
       "code": "012588",
       "alias": "智能制造观察",
       "target_weight": null,
+      "holding_amount": 0.0,
+      "cost_nav": null,
       "tags": [
         "制造",
         "高端装备"
@@ -6514,12 +6538,26 @@ window.__FUND_DATA__ = {
       "holdings_report_date": "2026-03-31",
       "scale": "0.42",
       "scale_date": "2026-03-31",
-      "warnings": []
+      "warnings": [],
+      "holding": {
+        "holding_amount": 0.0,
+        "cost_nav": null,
+        "target_weight": null,
+        "units": null,
+        "market_value": null,
+        "profit_amount": null,
+        "return_pct": null,
+        "estimated_daily_profit": null,
+        "actual_weight": null,
+        "weight_drift_pct_points": null
+      }
     },
     {
       "code": "270042",
       "alias": "主题弹性观察",
       "target_weight": null,
+      "holding_amount": 0.0,
+      "cost_nav": null,
       "tags": [
         "主题",
         "弹性"
@@ -9733,7 +9771,19 @@ window.__FUND_DATA__ = {
       "holdings_report_date": "2022-06-30",
       "scale": "0.78",
       "scale_date": "2026-03-31",
-      "warnings": []
+      "warnings": [],
+      "holding": {
+        "holding_amount": 0.0,
+        "cost_nav": null,
+        "target_weight": null,
+        "units": null,
+        "market_value": null,
+        "profit_amount": null,
+        "return_pct": null,
+        "estimated_daily_profit": null,
+        "actual_weight": null,
+        "weight_drift_pct_points": null
+      }
     }
   ],
   "overlap_holdings": [],
