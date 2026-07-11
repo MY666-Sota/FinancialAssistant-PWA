@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-11T21:09:21+08:00",
+  "ok": true,
+  "publishable": true,
+  "success_count": 3,
+  "success_rate": 1.0,
+  "min_success_rate": 0.5,
+  "overview": {
+    "fund_count": 3,
+    "ok_count": 3,
+    "stale_count": 0,
+    "estimate_count": 3,
+    "avg_estimate_pct": -1.31,
+    "up_count": 1,
+    "down_count": 2,
+    "flat_count": 0
+  },
+  "errors": []
+}

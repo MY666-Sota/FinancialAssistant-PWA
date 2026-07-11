@@ -1,0 +1,9748 @@
+window.__FUND_DATA__ = {
+  "version": "1.0.0",
+  "generated_at": "2026-07-11T21:09:21+08:00",
+  "timezone": "Asia/Shanghai",
+  "source": {
+    "primary": "eastmoney_tiantian_public_endpoints",
+    "disclaimer": "盘中估值为第三方估算；持仓、规模等字段应以基金定期报告和基金公司公告为最终准绳。"
+  },
+  "overview": {
+    "fund_count": 3,
+    "ok_count": 3,
+    "stale_count": 0,
+    "estimate_count": 3,
+    "avg_estimate_pct": -1.31,
+    "up_count": 1,
+    "down_count": 2,
+    "flat_count": 0
+  },
+  "funds": [
+    {
+      "code": "008585",
+      "alias": "科技成长观察",
+      "target_weight": null,
+      "tags": [
+        "科技",
+        "成长"
+      ],
+      "name": "华夏人工智能ETF联接A",
+      "ok": true,
+      "stale": false,
+      "errors": [],
+      "sources": [
+        {
+          "type": "estimate_and_nav",
+          "name": "天天基金实时估值接口",
+          "url": "https://fundgz.1234567.com.cn/js/008585.js",
+          "confidence": "observational"
+        },
+        {
+          "type": "fund_profile",
+          "name": "天天基金详情页数据",
+          "url": "https://fund.eastmoney.com/008585.html",
+          "confidence": "observational"
+        },
+        {
+          "type": "top_holdings",
+          "name": "天天基金基金档案持仓",
+          "url": "https://fundf10.eastmoney.com/ccmx_008585.html",
+          "confidence": "disclosure_mirror"
+        },
+        {
+          "type": "scale",
+          "name": "天天基金基金档案规模变动",
+          "url": "https://fundf10.eastmoney.com/gmbd_008585.html",
+          "confidence": "disclosure_mirror"
+        }
+      ],
+      "nav": 1.9713,
+      "nav_raw": "1.9713",
+      "nav_date": "2026-07-09",
+      "estimate": {
+        "value": 1.9128,
+        "value_raw": "1.9128",
+        "pct": -2.97,
+        "pct_raw": "-2.97",
+        "time": "2026-07-10 15:00",
+        "is_estimated": true,
+        "source": "tiantian_fundgz"
+      },
+      "manager": "李俊",
+      "managers": [
+        {
+          "id": "30563849",
+          "name": "李俊",
+          "work_time": "8年又214天",
+          "fund_size": "787.57亿(33只基金)",
+          "power": {
+            "avr": "81.72",
+            "categories": [
+              "经验值",
+              "收益率",
+              "跟踪误差",
+              "超额收益",
+              "管理规模"
+            ],
+            "dsc": [
+              "反映基金经理从业年限和管理基金的经验",
+              "根据基金经理投资的阶段收益评分，反映<br>基金经理投资的盈利能力",
+              "根据基金跟踪指数的密切程度评分，反<br>应基金经理的管理能力",
+              "根据基金经理投资的超额风险所带来的<br>超额收益评分",
+              "根据基金经理现任管理基金资产规模评分"
+            ],
+            "data": [
+              87.6,
+              83.8,
+              84.0,
+              66.4,
+              98.2
+            ],
+            "jzrq": "2026-07-10"
+          }
+        }
+      ],
+      "net_worth_trend": [
+        {
+          "date": "2024-05-22",
+          "nav": 0.7133,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-23",
+          "nav": 0.7009,
+          "change_pct": -1.74,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-24",
+          "nav": 0.6836,
+          "change_pct": -2.47,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-27",
+          "nav": 0.6921,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-28",
+          "nav": 0.6819,
+          "change_pct": -1.47,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-29",
+          "nav": 0.6805,
+          "change_pct": -0.21,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-30",
+          "nav": 0.6825,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-31",
+          "nav": 0.6856,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-03",
+          "nav": 0.6968,
+          "change_pct": 1.63,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-04",
+          "nav": 0.6992,
+          "change_pct": 0.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-05",
+          "nav": 0.6963,
+          "change_pct": -0.41,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-06",
+          "nav": 0.6931,
+          "change_pct": -0.46,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-07",
+          "nav": 0.6843,
+          "change_pct": -1.27,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-11",
+          "nav": 0.6938,
+          "change_pct": 1.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-12",
+          "nav": 0.6967,
+          "change_pct": 0.42,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-13",
+          "nav": 0.7023,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-14",
+          "nav": 0.7167,
+          "change_pct": 2.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-17",
+          "nav": 0.7178,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-18",
+          "nav": 0.7284,
+          "change_pct": 1.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-19",
+          "nav": 0.7229,
+          "change_pct": -0.76,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-20",
+          "nav": 0.7108,
+          "change_pct": -1.67,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-21",
+          "nav": 0.7136,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-24",
+          "nav": 0.6962,
+          "change_pct": -2.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-25",
+          "nav": 0.6786,
+          "change_pct": -2.53,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-26",
+          "nav": 0.7021,
+          "change_pct": 3.46,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-27",
+          "nav": 0.6894,
+          "change_pct": -1.81,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-28",
+          "nav": 0.689,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-30",
+          "nav": 0.689,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-01",
+          "nav": 0.6908,
+          "change_pct": 0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-02",
+          "nav": 0.6864,
+          "change_pct": -0.64,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-03",
+          "nav": 0.68,
+          "change_pct": -0.93,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-04",
+          "nav": 0.6722,
+          "change_pct": -1.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-05",
+          "nav": 0.6754,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-08",
+          "nav": 0.6674,
+          "change_pct": -1.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-09",
+          "nav": 0.688,
+          "change_pct": 3.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-10",
+          "nav": 0.6918,
+          "change_pct": 0.55,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-11",
+          "nav": 0.6978,
+          "change_pct": 0.87,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-12",
+          "nav": 0.6936,
+          "change_pct": -0.6,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-15",
+          "nav": 0.6891,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-16",
+          "nav": 0.7049,
+          "change_pct": 2.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-17",
+          "nav": 0.6963,
+          "change_pct": -1.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-18",
+          "nav": 0.6921,
+          "change_pct": -0.6,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-19",
+          "nav": 0.6988,
+          "change_pct": 0.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-22",
+          "nav": 0.7016,
+          "change_pct": 0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-23",
+          "nav": 0.6765,
+          "change_pct": -3.58,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-24",
+          "nav": 0.6699,
+          "change_pct": -0.98,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-25",
+          "nav": 0.661,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-26",
+          "nav": 0.6655,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-29",
+          "nav": 0.6644,
+          "change_pct": -0.17,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-30",
+          "nav": 0.6619,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-31",
+          "nav": 0.6837,
+          "change_pct": 3.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-01",
+          "nav": 0.6792,
+          "change_pct": -0.66,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-02",
+          "nav": 0.6582,
+          "change_pct": -3.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-05",
+          "nav": 0.6309,
+          "change_pct": -4.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-06",
+          "nav": 0.6382,
+          "change_pct": 1.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-07",
+          "nav": 0.6313,
+          "change_pct": -1.08,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-08",
+          "nav": 0.6279,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-09",
+          "nav": 0.6276,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-12",
+          "nav": 0.6241,
+          "change_pct": -0.56,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-13",
+          "nav": 0.629,
+          "change_pct": 0.79,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-14",
+          "nav": 0.626,
+          "change_pct": -0.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-15",
+          "nav": 0.6294,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-16",
+          "nav": 0.6311,
+          "change_pct": 0.27,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-19",
+          "nav": 0.6333,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-20",
+          "nav": 0.6249,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-21",
+          "nav": 0.6253,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-22",
+          "nav": 0.6153,
+          "change_pct": -1.6,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-23",
+          "nav": 0.6173,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-26",
+          "nav": 0.6126,
+          "change_pct": -0.76,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-27",
+          "nav": 0.6035,
+          "change_pct": -1.49,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-28",
+          "nav": 0.6032,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-29",
+          "nav": 0.604,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-30",
+          "nav": 0.6192,
+          "change_pct": 2.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-02",
+          "nav": 0.5983,
+          "change_pct": -3.38,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-03",
+          "nav": 0.607,
+          "change_pct": 1.45,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-04",
+          "nav": 0.6033,
+          "change_pct": -0.61,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-05",
+          "nav": 0.6048,
+          "change_pct": 0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-06",
+          "nav": 0.5952,
+          "change_pct": -1.59,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-09",
+          "nav": 0.5921,
+          "change_pct": -0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-10",
+          "nav": 0.6023,
+          "change_pct": 1.72,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-11",
+          "nav": 0.6047,
+          "change_pct": 0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-12",
+          "nav": 0.6021,
+          "change_pct": -0.43,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-13",
+          "nav": 0.6039,
+          "change_pct": 0.3,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-18",
+          "nav": 0.6015,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-19",
+          "nav": 0.6056,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-20",
+          "nav": 0.6064,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-23",
+          "nav": 0.6064,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-24",
+          "nav": 0.6311,
+          "change_pct": 4.07,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-25",
+          "nav": 0.6343,
+          "change_pct": 0.51,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-26",
+          "nav": 0.6588,
+          "change_pct": 3.86,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-27",
+          "nav": 0.7015,
+          "change_pct": 6.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-30",
+          "nav": 0.7882,
+          "change_pct": 12.36,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-08",
+          "nav": 0.8873,
+          "change_pct": 12.57,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-09",
+          "nav": 0.8499,
+          "change_pct": -4.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-10",
+          "nav": 0.8207,
+          "change_pct": -3.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-11",
+          "nav": 0.7822,
+          "change_pct": -4.69,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-14",
+          "nav": 0.8073,
+          "change_pct": 3.21,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-15",
+          "nav": 0.7911,
+          "change_pct": -2.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-16",
+          "nav": 0.7724,
+          "change_pct": -2.36,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-17",
+          "nav": 0.7842,
+          "change_pct": 1.53,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-18",
+          "nav": 0.8392,
+          "change_pct": 7.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-21",
+          "nav": 0.855,
+          "change_pct": 1.88,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-22",
+          "nav": 0.8482,
+          "change_pct": -0.8,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-23",
+          "nav": 0.8353,
+          "change_pct": -1.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-24",
+          "nav": 0.8308,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-25",
+          "nav": 0.8377,
+          "change_pct": 0.83,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-28",
+          "nav": 0.8364,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-29",
+          "nav": 0.8301,
+          "change_pct": -0.75,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-30",
+          "nav": 0.8297,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-31",
+          "nav": 0.8374,
+          "change_pct": 0.93,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-01",
+          "nav": 0.8058,
+          "change_pct": -3.77,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-04",
+          "nav": 0.8235,
+          "change_pct": 2.2,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-05",
+          "nav": 0.8591,
+          "change_pct": 4.32,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-06",
+          "nav": 0.8594,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-07",
+          "nav": 0.8785,
+          "change_pct": 2.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-08",
+          "nav": 0.8824,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-11",
+          "nav": 0.9255,
+          "change_pct": 4.88,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-12",
+          "nav": 0.9118,
+          "change_pct": -1.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-13",
+          "nav": 0.9343,
+          "change_pct": 2.47,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-14",
+          "nav": 0.8982,
+          "change_pct": -3.86,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-15",
+          "nav": 0.8728,
+          "change_pct": -2.83,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-18",
+          "nav": 0.8371,
+          "change_pct": -4.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-19",
+          "nav": 0.8556,
+          "change_pct": 2.21,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-20",
+          "nav": 0.8676,
+          "change_pct": 1.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-21",
+          "nav": 0.8742,
+          "change_pct": 0.76,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-22",
+          "nav": 0.848,
+          "change_pct": -3.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-25",
+          "nav": 0.8398,
+          "change_pct": -0.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-26",
+          "nav": 0.8277,
+          "change_pct": -1.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-27",
+          "nav": 0.8534,
+          "change_pct": 3.1,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-28",
+          "nav": 0.8471,
+          "change_pct": -0.74,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-29",
+          "nav": 0.8674,
+          "change_pct": 2.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-02",
+          "nav": 0.8765,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-03",
+          "nav": 0.8631,
+          "change_pct": -1.53,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-04",
+          "nav": 0.8547,
+          "change_pct": -0.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-05",
+          "nav": 0.8652,
+          "change_pct": 1.23,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-06",
+          "nav": 0.874,
+          "change_pct": 1.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-09",
+          "nav": 0.8669,
+          "change_pct": -0.81,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-10",
+          "nav": 0.8734,
+          "change_pct": 0.75,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-11",
+          "nav": 0.8811,
+          "change_pct": 0.88,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-12",
+          "nav": 0.8876,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-13",
+          "nav": 0.873,
+          "change_pct": -1.64,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-16",
+          "nav": 0.8635,
+          "change_pct": -1.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-17",
+          "nav": 0.8566,
+          "change_pct": -0.8,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-18",
+          "nav": 0.8739,
+          "change_pct": 2.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-19",
+          "nav": 0.8981,
+          "change_pct": 2.77,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-20",
+          "nav": 0.9065,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-23",
+          "nav": 0.8912,
+          "change_pct": -1.69,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-24",
+          "nav": 0.8949,
+          "change_pct": 0.42,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-25",
+          "nav": 0.8917,
+          "change_pct": -0.36,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-26",
+          "nav": 0.9177,
+          "change_pct": 2.92,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-27",
+          "nav": 0.9023,
+          "change_pct": -1.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-30",
+          "nav": 0.8967,
+          "change_pct": -0.62,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-31",
+          "nav": 0.8641,
+          "change_pct": -3.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-02",
+          "nav": 0.8325,
+          "change_pct": -3.66,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-03",
+          "nav": 0.8096,
+          "change_pct": -2.75,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-06",
+          "nav": 0.8089,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-07",
+          "nav": 0.8348,
+          "change_pct": 3.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-08",
+          "nav": 0.8307,
+          "change_pct": -0.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-09",
+          "nav": 0.8323,
+          "change_pct": 0.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-10",
+          "nav": 0.8123,
+          "change_pct": -2.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-13",
+          "nav": 0.8097,
+          "change_pct": -0.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-14",
+          "nav": 0.8413,
+          "change_pct": 3.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-15",
+          "nav": 0.8356,
+          "change_pct": -0.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-16",
+          "nav": 0.8321,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-17",
+          "nav": 0.8353,
+          "change_pct": 0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-20",
+          "nav": 0.8455,
+          "change_pct": 1.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-21",
+          "nav": 0.8622,
+          "change_pct": 1.98,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-22",
+          "nav": 0.8729,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-23",
+          "nav": 0.8596,
+          "change_pct": -1.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-24",
+          "nav": 0.8773,
+          "change_pct": 2.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-27",
+          "nav": 0.8577,
+          "change_pct": -2.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-05",
+          "nav": 0.8819,
+          "change_pct": 2.82,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-06",
+          "nav": 0.9055,
+          "change_pct": 2.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-07",
+          "nav": 0.9298,
+          "change_pct": 2.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-10",
+          "nav": 0.9497,
+          "change_pct": 2.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-11",
+          "nav": 0.9448,
+          "change_pct": -0.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-12",
+          "nav": 0.9624,
+          "change_pct": 1.86,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-13",
+          "nav": 0.9435,
+          "change_pct": -1.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-14",
+          "nav": 0.9636,
+          "change_pct": 2.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-17",
+          "nav": 0.9822,
+          "change_pct": 1.93,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-18",
+          "nav": 0.96,
+          "change_pct": -2.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-19",
+          "nav": 0.9823,
+          "change_pct": 2.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-20",
+          "nav": 0.9784,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-21",
+          "nav": 1.0304,
+          "change_pct": 5.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-24",
+          "nav": 1.0292,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-25",
+          "nav": 1.019,
+          "change_pct": -0.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-26",
+          "nav": 1.0276,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-27",
+          "nav": 1.0086,
+          "change_pct": -1.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-28",
+          "nav": 0.9546,
+          "change_pct": -5.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-03",
+          "nav": 0.9481,
+          "change_pct": -0.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-04",
+          "nav": 0.9621,
+          "change_pct": 1.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-05",
+          "nav": 0.9745,
+          "change_pct": 1.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-06",
+          "nav": 1.0097,
+          "change_pct": 3.61,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-07",
+          "nav": 0.9959,
+          "change_pct": -1.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-10",
+          "nav": 0.9878,
+          "change_pct": -0.81,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-11",
+          "nav": 0.9848,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-12",
+          "nav": 0.9848,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-13",
+          "nav": 0.9616,
+          "change_pct": -2.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-14",
+          "nav": 0.9772,
+          "change_pct": 1.62,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-17",
+          "nav": 0.9742,
+          "change_pct": -0.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-18",
+          "nav": 0.9845,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-19",
+          "nav": 0.9663,
+          "change_pct": -1.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-20",
+          "nav": 0.955,
+          "change_pct": -1.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-21",
+          "nav": 0.9281,
+          "change_pct": -2.82,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-24",
+          "nav": 0.9307,
+          "change_pct": 0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-25",
+          "nav": 0.9112,
+          "change_pct": -2.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-26",
+          "nav": 0.9101,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-27",
+          "nav": 0.9125,
+          "change_pct": 0.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-28",
+          "nav": 0.9066,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-31",
+          "nav": 0.9079,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-01",
+          "nav": 0.9021,
+          "change_pct": -0.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-02",
+          "nav": 0.9045,
+          "change_pct": 0.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-03",
+          "nav": 0.8889,
+          "change_pct": -1.72,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-07",
+          "nav": 0.7912,
+          "change_pct": -10.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-08",
+          "nav": 0.7861,
+          "change_pct": -0.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-09",
+          "nav": 0.8114,
+          "change_pct": 3.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-10",
+          "nav": 0.8276,
+          "change_pct": 2.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-11",
+          "nav": 0.8431,
+          "change_pct": 1.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-14",
+          "nav": 0.8486,
+          "change_pct": 0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-15",
+          "nav": 0.841,
+          "change_pct": -0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-16",
+          "nav": 0.8361,
+          "change_pct": -0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-17",
+          "nav": 0.8409,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-18",
+          "nav": 0.8407,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-21",
+          "nav": 0.8563,
+          "change_pct": 1.86,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-22",
+          "nav": 0.8452,
+          "change_pct": -1.3,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-23",
+          "nav": 0.8553,
+          "change_pct": 1.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-24",
+          "nav": 0.84,
+          "change_pct": -1.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-25",
+          "nav": 0.8476,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-28",
+          "nav": 0.8454,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-29",
+          "nav": 0.8511,
+          "change_pct": 0.67,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-30",
+          "nav": 0.8695,
+          "change_pct": 2.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-06",
+          "nav": 0.891,
+          "change_pct": 2.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-07",
+          "nav": 0.8862,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-08",
+          "nav": 0.8959,
+          "change_pct": 1.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-09",
+          "nav": 0.8823,
+          "change_pct": -1.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-12",
+          "nav": 0.8916,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-13",
+          "nav": 0.8888,
+          "change_pct": -0.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-14",
+          "nav": 0.8929,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-15",
+          "nav": 0.8727,
+          "change_pct": -2.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-16",
+          "nav": 0.8745,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-19",
+          "nav": 0.872,
+          "change_pct": -0.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-20",
+          "nav": 0.877,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-21",
+          "nav": 0.8727,
+          "change_pct": -0.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-22",
+          "nav": 0.8723,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-23",
+          "nav": 0.8585,
+          "change_pct": -1.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-26",
+          "nav": 0.8626,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-27",
+          "nav": 0.8498,
+          "change_pct": -1.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-28",
+          "nav": 0.8494,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-29",
+          "nav": 0.8666,
+          "change_pct": 2.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-30",
+          "nav": 0.8535,
+          "change_pct": -1.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-03",
+          "nav": 0.8541,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-04",
+          "nav": 0.8657,
+          "change_pct": 1.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-05",
+          "nav": 0.8869,
+          "change_pct": 2.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-06",
+          "nav": 0.8878,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-09",
+          "nav": 0.8937,
+          "change_pct": 0.66,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-10",
+          "nav": 0.8777,
+          "change_pct": -1.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-11",
+          "nav": 0.8786,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-12",
+          "nav": 0.8791,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-13",
+          "nav": 0.8689,
+          "change_pct": -1.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-16",
+          "nav": 0.876,
+          "change_pct": 0.82,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-17",
+          "nav": 0.8709,
+          "change_pct": -0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-18",
+          "nav": 0.8791,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-19",
+          "nav": 0.8766,
+          "change_pct": -0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-20",
+          "nav": 0.8666,
+          "change_pct": -1.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-23",
+          "nav": 0.8634,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-24",
+          "nav": 0.8814,
+          "change_pct": 2.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-25",
+          "nav": 0.8985,
+          "change_pct": 1.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-26",
+          "nav": 0.8998,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-27",
+          "nav": 0.9041,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-30",
+          "nav": 0.9191,
+          "change_pct": 1.66,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-01",
+          "nav": 0.9108,
+          "change_pct": -0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-02",
+          "nav": 0.8937,
+          "change_pct": -1.88,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-03",
+          "nav": 0.9017,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-04",
+          "nav": 0.8984,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-07",
+          "nav": 0.8888,
+          "change_pct": -1.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-08",
+          "nav": 0.9093,
+          "change_pct": 2.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-09",
+          "nav": 0.9034,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-10",
+          "nav": 0.901,
+          "change_pct": -0.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-11",
+          "nav": 0.9091,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-14",
+          "nav": 0.9094,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-15",
+          "nav": 0.9449,
+          "change_pct": 3.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-16",
+          "nav": 0.9499,
+          "change_pct": 0.53,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-17",
+          "nav": 0.9655,
+          "change_pct": 1.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-18",
+          "nav": 0.9687,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-21",
+          "nav": 0.9684,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-22",
+          "nav": 0.9627,
+          "change_pct": -0.59,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-23",
+          "nav": 0.9631,
+          "change_pct": 0.04,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-24",
+          "nav": 0.9693,
+          "change_pct": 0.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-25",
+          "nav": 0.9893,
+          "change_pct": 2.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-28",
+          "nav": 0.9915,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-29",
+          "nav": 1.0152,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-30",
+          "nav": 1.0041,
+          "change_pct": -1.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-31",
+          "nav": 1.0087,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-01",
+          "nav": 0.9968,
+          "change_pct": -1.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-04",
+          "nav": 1.0049,
+          "change_pct": 0.81,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-05",
+          "nav": 1.0085,
+          "change_pct": 0.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-06",
+          "nav": 1.0163,
+          "change_pct": 0.77,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-07",
+          "nav": 1.0117,
+          "change_pct": -0.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-08",
+          "nav": 0.9955,
+          "change_pct": -1.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-11",
+          "nav": 1.012,
+          "change_pct": 1.66,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-12",
+          "nav": 1.0434,
+          "change_pct": 3.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-13",
+          "nav": 1.0774,
+          "change_pct": 3.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-14",
+          "nav": 1.0736,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-15",
+          "nav": 1.0818,
+          "change_pct": 0.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-18",
+          "nav": 1.1207,
+          "change_pct": 3.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-19",
+          "nav": 1.1272,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-20",
+          "nav": 1.1541,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-21",
+          "nav": 1.1502,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-22",
+          "nav": 1.2208,
+          "change_pct": 6.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-25",
+          "nav": 1.2732,
+          "change_pct": 4.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-26",
+          "nav": 1.2632,
+          "change_pct": -0.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-27",
+          "nav": 1.2847,
+          "change_pct": 1.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-28",
+          "nav": 1.3655,
+          "change_pct": 6.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-29",
+          "nav": 1.3487,
+          "change_pct": -1.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-01",
+          "nav": 1.3814,
+          "change_pct": 2.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-02",
+          "nav": 1.3294,
+          "change_pct": -3.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-03",
+          "nav": 1.3285,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-04",
+          "nav": 1.2212,
+          "change_pct": -8.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-05",
+          "nav": 1.2821,
+          "change_pct": 4.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-08",
+          "nav": 1.2605,
+          "change_pct": -1.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-09",
+          "nav": 1.2391,
+          "change_pct": -1.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-10",
+          "nav": 1.2715,
+          "change_pct": 2.61,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-11",
+          "nav": 1.3553,
+          "change_pct": 6.59,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-12",
+          "nav": 1.3598,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-15",
+          "nav": 1.3492,
+          "change_pct": -0.78,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-16",
+          "nav": 1.3678,
+          "change_pct": 1.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-17",
+          "nav": 1.3694,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-18",
+          "nav": 1.3721,
+          "change_pct": 0.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-19",
+          "nav": 1.3641,
+          "change_pct": -0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-22",
+          "nav": 1.3901,
+          "change_pct": 1.91,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-23",
+          "nav": 1.3848,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-24",
+          "nav": 1.4092,
+          "change_pct": 1.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-25",
+          "nav": 1.4451,
+          "change_pct": 2.55,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-26",
+          "nav": 1.4007,
+          "change_pct": -3.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-29",
+          "nav": 1.4169,
+          "change_pct": 1.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-30",
+          "nav": 1.4214,
+          "change_pct": 0.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-09",
+          "nav": 1.4355,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-10",
+          "nav": 1.3719,
+          "change_pct": -4.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-13",
+          "nav": 1.3668,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-14",
+          "nav": 1.3016,
+          "change_pct": -4.77,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-15",
+          "nav": 1.323,
+          "change_pct": 1.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-16",
+          "nav": 1.3213,
+          "change_pct": -0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-17",
+          "nav": 1.2846,
+          "change_pct": -2.78,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-20",
+          "nav": 1.3069,
+          "change_pct": 1.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-21",
+          "nav": 1.3629,
+          "change_pct": 4.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-22",
+          "nav": 1.3645,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-23",
+          "nav": 1.3525,
+          "change_pct": -0.88,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-24",
+          "nav": 1.4188,
+          "change_pct": 4.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-27",
+          "nav": 1.4511,
+          "change_pct": 2.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-28",
+          "nav": 1.4488,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-29",
+          "nav": 1.4557,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-30",
+          "nav": 1.4236,
+          "change_pct": -2.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-31",
+          "nav": 1.3801,
+          "change_pct": -3.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-03",
+          "nav": 1.3816,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-04",
+          "nav": 1.3663,
+          "change_pct": -1.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-05",
+          "nav": 1.3563,
+          "change_pct": -0.73,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-06",
+          "nav": 1.3958,
+          "change_pct": 2.91,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-07",
+          "nav": 1.3687,
+          "change_pct": -1.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-10",
+          "nav": 1.3573,
+          "change_pct": -0.83,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-11",
+          "nav": 1.3266,
+          "change_pct": -2.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-12",
+          "nav": 1.3314,
+          "change_pct": 0.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-13",
+          "nav": 1.3386,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-14",
+          "nav": 1.2976,
+          "change_pct": -3.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-17",
+          "nav": 1.3098,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-18",
+          "nav": 1.3155,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-19",
+          "nav": 1.3151,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-20",
+          "nav": 1.3095,
+          "change_pct": -0.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-21",
+          "nav": 1.2576,
+          "change_pct": -3.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-24",
+          "nav": 1.2669,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-25",
+          "nav": 1.291,
+          "change_pct": 1.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-26",
+          "nav": 1.3365,
+          "change_pct": 3.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-27",
+          "nav": 1.3285,
+          "change_pct": -0.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-28",
+          "nav": 1.3334,
+          "change_pct": 0.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-01",
+          "nav": 1.3639,
+          "change_pct": 2.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-02",
+          "nav": 1.355,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-03",
+          "nav": 1.3399,
+          "change_pct": -1.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-04",
+          "nav": 1.3518,
+          "change_pct": 0.89,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-05",
+          "nav": 1.3543,
+          "change_pct": 0.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-08",
+          "nav": 1.3944,
+          "change_pct": 2.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-09",
+          "nav": 1.4116,
+          "change_pct": 1.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-10",
+          "nav": 1.4152,
+          "change_pct": 0.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-11",
+          "nav": 1.3798,
+          "change_pct": -2.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-12",
+          "nav": 1.3957,
+          "change_pct": 1.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-15",
+          "nav": 1.3698,
+          "change_pct": -1.86,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-16",
+          "nav": 1.3372,
+          "change_pct": -2.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-17",
+          "nav": 1.3831,
+          "change_pct": 3.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-18",
+          "nav": 1.3596,
+          "change_pct": -1.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-19",
+          "nav": 1.3656,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-22",
+          "nav": 1.3972,
+          "change_pct": 2.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-23",
+          "nav": 1.3985,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-24",
+          "nav": 1.4091,
+          "change_pct": 0.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-25",
+          "nav": 1.4129,
+          "change_pct": 0.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-26",
+          "nav": 1.4085,
+          "change_pct": -0.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-29",
+          "nav": 1.4108,
+          "change_pct": 0.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-30",
+          "nav": 1.4283,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-31",
+          "nav": 1.4146,
+          "change_pct": -0.96,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-05",
+          "nav": 1.4574,
+          "change_pct": 3.03,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-06",
+          "nav": 1.4673,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-07",
+          "nav": 1.469,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-08",
+          "nav": 1.4708,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-09",
+          "nav": 1.495,
+          "change_pct": 1.65,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-12",
+          "nav": 1.555,
+          "change_pct": 4.01,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-13",
+          "nav": 1.5149,
+          "change_pct": -2.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-14",
+          "nav": 1.5448,
+          "change_pct": 1.97,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-15",
+          "nav": 1.5452,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-16",
+          "nav": 1.5405,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-19",
+          "nav": 1.5213,
+          "change_pct": -1.25,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-20",
+          "nav": 1.4895,
+          "change_pct": -2.09,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-21",
+          "nav": 1.5205,
+          "change_pct": 2.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-22",
+          "nav": 1.5432,
+          "change_pct": 1.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-23",
+          "nav": 1.5323,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-26",
+          "nav": 1.5209,
+          "change_pct": -0.74,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-27",
+          "nav": 1.5409,
+          "change_pct": 1.32,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-28",
+          "nav": 1.5368,
+          "change_pct": -0.27,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-29",
+          "nav": 1.5136,
+          "change_pct": -1.51,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-30",
+          "nav": 1.5332,
+          "change_pct": 1.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-02",
+          "nav": 1.4906,
+          "change_pct": -2.78,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-03",
+          "nav": 1.4996,
+          "change_pct": 0.6,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-04",
+          "nav": 1.4549,
+          "change_pct": -2.98,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-05",
+          "nav": 1.434,
+          "change_pct": -1.44,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-06",
+          "nav": 1.4085,
+          "change_pct": -1.78,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-09",
+          "nav": 1.462,
+          "change_pct": 3.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-10",
+          "nav": 1.4745,
+          "change_pct": 0.85,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-11",
+          "nav": 1.4477,
+          "change_pct": -1.82,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-12",
+          "nav": 1.4769,
+          "change_pct": 2.02,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-13",
+          "nav": 1.4685,
+          "change_pct": -0.57,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-24",
+          "nav": 1.4704,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-25",
+          "nav": 1.4678,
+          "change_pct": -0.18,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-26",
+          "nav": 1.4908,
+          "change_pct": 1.57,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-27",
+          "nav": 1.4853,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-02",
+          "nav": 1.4742,
+          "change_pct": -0.75,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-03",
+          "nav": 1.4168,
+          "change_pct": -3.89,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-04",
+          "nav": 1.3966,
+          "change_pct": -1.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-05",
+          "nav": 1.4291,
+          "change_pct": 2.33,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-06",
+          "nav": 1.4314,
+          "change_pct": 0.16,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-09",
+          "nav": 1.4213,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-10",
+          "nav": 1.4492,
+          "change_pct": 1.96,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-11",
+          "nav": 1.4336,
+          "change_pct": -1.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-12",
+          "nav": 1.4209,
+          "change_pct": -0.89,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-13",
+          "nav": 1.4056,
+          "change_pct": -1.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-16",
+          "nav": 1.4174,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-17",
+          "nav": 1.3818,
+          "change_pct": -2.51,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-18",
+          "nav": 1.4301,
+          "change_pct": 3.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-19",
+          "nav": 1.4117,
+          "change_pct": -1.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-20",
+          "nav": 1.4029,
+          "change_pct": -0.62,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-23",
+          "nav": 1.3439,
+          "change_pct": -4.21,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-24",
+          "nav": 1.364,
+          "change_pct": 1.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-25",
+          "nav": 1.3992,
+          "change_pct": 2.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-26",
+          "nav": 1.3649,
+          "change_pct": -2.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-27",
+          "nav": 1.362,
+          "change_pct": -0.21,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-30",
+          "nav": 1.3572,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-31",
+          "nav": 1.3281,
+          "change_pct": -2.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-01",
+          "nav": 1.3713,
+          "change_pct": 3.25,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-02",
+          "nav": 1.3302,
+          "change_pct": -3.0,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-03",
+          "nav": 1.3394,
+          "change_pct": 0.69,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-07",
+          "nav": 1.3529,
+          "change_pct": 1.01,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-08",
+          "nav": 1.4442,
+          "change_pct": 6.75,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-09",
+          "nav": 1.4385,
+          "change_pct": -0.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-10",
+          "nav": 1.4728,
+          "change_pct": 2.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-13",
+          "nav": 1.4819,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-14",
+          "nav": 1.5121,
+          "change_pct": 2.04,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-15",
+          "nav": 1.5017,
+          "change_pct": -0.69,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-16",
+          "nav": 1.5444,
+          "change_pct": 2.84,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-17",
+          "nav": 1.5734,
+          "change_pct": 1.88,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-20",
+          "nav": 1.5953,
+          "change_pct": 1.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-21",
+          "nav": 1.5795,
+          "change_pct": -0.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-22",
+          "nav": 1.6283,
+          "change_pct": 3.09,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-23",
+          "nav": 1.6168,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-24",
+          "nav": 1.595,
+          "change_pct": -1.35,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-27",
+          "nav": 1.6102,
+          "change_pct": 0.95,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-28",
+          "nav": 1.5835,
+          "change_pct": -1.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-29",
+          "nav": 1.596,
+          "change_pct": 0.79,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-30",
+          "nav": 1.6357,
+          "change_pct": 2.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-06",
+          "nav": 1.6935,
+          "change_pct": 3.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-07",
+          "nav": 1.7342,
+          "change_pct": 2.4,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-08",
+          "nav": 1.7237,
+          "change_pct": -0.61,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-11",
+          "nav": 1.7761,
+          "change_pct": 3.04,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-12",
+          "nav": 1.7892,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-13",
+          "nav": 1.8493,
+          "change_pct": 3.36,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-14",
+          "nav": 1.8154,
+          "change_pct": -1.83,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-15",
+          "nav": 1.7767,
+          "change_pct": -2.13,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-18",
+          "nav": 1.787,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-19",
+          "nav": 1.8137,
+          "change_pct": 1.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-20",
+          "nav": 1.8212,
+          "change_pct": 0.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-21",
+          "nav": 1.7579,
+          "change_pct": -3.48,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-22",
+          "nav": 1.801,
+          "change_pct": 2.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-25",
+          "nav": 1.8693,
+          "change_pct": 3.79,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-26",
+          "nav": 1.8565,
+          "change_pct": -0.68,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-27",
+          "nav": 1.8253,
+          "change_pct": -1.68,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-28",
+          "nav": 1.8573,
+          "change_pct": 1.75,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-29",
+          "nav": 1.791,
+          "change_pct": -3.57,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-01",
+          "nav": 1.7484,
+          "change_pct": -2.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-02",
+          "nav": 1.7962,
+          "change_pct": 2.73,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-03",
+          "nav": 1.8522,
+          "change_pct": 3.12,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-04",
+          "nav": 1.8399,
+          "change_pct": -0.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-05",
+          "nav": 1.778,
+          "change_pct": -3.36,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-08",
+          "nav": 1.716,
+          "change_pct": -3.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-09",
+          "nav": 1.7707,
+          "change_pct": 3.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-10",
+          "nav": 1.7348,
+          "change_pct": -2.03,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-11",
+          "nav": 1.6942,
+          "change_pct": -2.34,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-12",
+          "nav": 1.6884,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-15",
+          "nav": 1.78,
+          "change_pct": 5.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-16",
+          "nav": 1.7834,
+          "change_pct": 0.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-17",
+          "nav": 1.8271,
+          "change_pct": 2.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-18",
+          "nav": 1.9093,
+          "change_pct": 4.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-22",
+          "nav": 1.9283,
+          "change_pct": 1.0,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-23",
+          "nav": 1.86,
+          "change_pct": -3.54,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-24",
+          "nav": 1.9044,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-25",
+          "nav": 1.97,
+          "change_pct": 3.44,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-26",
+          "nav": 1.8837,
+          "change_pct": -4.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-29",
+          "nav": 1.9102,
+          "change_pct": 1.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-30",
+          "nav": 2.0107,
+          "change_pct": 5.26,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-01",
+          "nav": 1.967,
+          "change_pct": -2.17,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-02",
+          "nav": 1.8449,
+          "change_pct": -6.21,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-03",
+          "nav": 1.8534,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-06",
+          "nav": 1.8425,
+          "change_pct": -0.59,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-07",
+          "nav": 1.8354,
+          "change_pct": -0.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-08",
+          "nav": 1.8595,
+          "change_pct": 1.31,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-09",
+          "nav": 1.9713,
+          "change_pct": 6.01,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-10",
+          "nav": 1.9159,
+          "change_pct": -2.81,
+          "dividend": null
+        }
+      ],
+      "returns": {
+        "last_1_month_pct": 10.44,
+        "last_3_month_pct": 30.09,
+        "last_6_month_pct": 28.15,
+        "last_1_year_pct": 112.64
+      },
+      "source_url": "https://fund.eastmoney.com/008585.html",
+      "top_holdings": [
+        {
+          "stock_code": "300502",
+          "stock_name": "æ°æç",
+          "ratio": 0.25,
+          "ratio_raw": "0.25%"
+        },
+        {
+          "stock_code": "300308",
+          "stock_name": "ä¸­é æ­å",
+          "ratio": 0.23,
+          "ratio_raw": "0.23%"
+        },
+        {
+          "stock_code": "688256",
+          "stock_name": "å¯æ­¦çºª",
+          "ratio": 0.16,
+          "ratio_raw": "0.16%"
+        },
+        {
+          "stock_code": "688008",
+          "stock_name": "æ¾èµ·ç§æ",
+          "ratio": 0.13,
+          "ratio_raw": "0.13%"
+        },
+        {
+          "stock_code": "603019",
+          "stock_name": "ä¸­ç§æå ",
+          "ratio": 0.1,
+          "ratio_raw": "0.10%"
+        },
+        {
+          "stock_code": "002415",
+          "stock_name": "æµ·åº·å¨è§",
+          "ratio": 0.1,
+          "ratio_raw": "0.10%"
+        },
+        {
+          "stock_code": "002230",
+          "stock_name": "ç§å¤§è®¯é£",
+          "ratio": 0.09,
+          "ratio_raw": "0.09%"
+        },
+        {
+          "stock_code": "603501",
+          "stock_name": "è±ªå¨éå¢",
+          "ratio": 0.07,
+          "ratio_raw": "0.07%"
+        },
+        {
+          "stock_code": "688521",
+          "stock_name": "è¯åè¡ä»½",
+          "ratio": 0.07,
+          "ratio_raw": "0.07%"
+        },
+        {
+          "stock_code": "300442",
+          "stock_name": "æ¶¦æ³½ç§æ",
+          "ratio": 0.06,
+          "ratio_raw": "0.06%"
+        }
+      ],
+      "holdings_report_date": "2026-03-31",
+      "scale": "10.11",
+      "scale_date": "2026-03-31",
+      "warnings": []
+    },
+    {
+      "code": "012588",
+      "alias": "智能制造观察",
+      "target_weight": null,
+      "tags": [
+        "制造",
+        "高端装备"
+      ],
+      "name": "南方港股通优势企业混合A",
+      "ok": true,
+      "stale": false,
+      "errors": [],
+      "sources": [
+        {
+          "type": "estimate_and_nav",
+          "name": "天天基金实时估值接口",
+          "url": "https://fundgz.1234567.com.cn/js/012588.js",
+          "confidence": "observational"
+        },
+        {
+          "type": "fund_profile",
+          "name": "天天基金详情页数据",
+          "url": "https://fund.eastmoney.com/012588.html",
+          "confidence": "observational"
+        },
+        {
+          "type": "top_holdings",
+          "name": "天天基金基金档案持仓",
+          "url": "https://fundf10.eastmoney.com/ccmx_012588.html",
+          "confidence": "disclosure_mirror"
+        },
+        {
+          "type": "scale",
+          "name": "天天基金基金档案规模变动",
+          "url": "https://fundf10.eastmoney.com/gmbd_012588.html",
+          "confidence": "disclosure_mirror"
+        }
+      ],
+      "nav": 1.1674,
+      "nav_raw": "1.1674",
+      "nav_date": "2026-07-09",
+      "estimate": {
+        "value": 1.1526,
+        "value_raw": "1.1526",
+        "pct": -1.26,
+        "pct_raw": "-1.26",
+        "time": "2026-07-10 15:00",
+        "is_estimated": true,
+        "source": "tiantian_fundgz"
+      },
+      "manager": "骆帅",
+      "managers": [
+        {
+          "id": "30350672",
+          "name": "骆帅",
+          "work_time": "11年又47天",
+          "fund_size": "99.14亿(10只基金)",
+          "power": {
+            "avr": "80.97",
+            "categories": [
+              "经验值",
+              "收益率",
+              "抗风险",
+              "稳定性",
+              "择时能力"
+            ],
+            "dsc": [
+              "反映基金经理从业年限和管理基金的经验",
+              "根据基金经理投资的阶段收益评分，反映<br>基金经理投资的盈利能力",
+              "反映基金经理投资的回撤控制能力",
+              "反映基金经理投资收益的波动",
+              "反映基金经理根据对市场的判断，通过<br>调整仓位及配置而跑赢业绩的基准能力"
+            ],
+            "data": [
+              93.0,
+              86.0,
+              75.2,
+              79.8,
+              70.1
+            ],
+            "jzrq": "2026-07-10"
+          }
+        }
+      ],
+      "net_worth_trend": [
+        {
+          "date": "2024-05-22",
+          "nav": 0.8057,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-23",
+          "nav": 0.7968,
+          "change_pct": -1.1,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-24",
+          "nav": 0.7918,
+          "change_pct": -0.63,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-27",
+          "nav": 0.8081,
+          "change_pct": 2.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-28",
+          "nav": 0.8078,
+          "change_pct": -0.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-29",
+          "nav": 0.8025,
+          "change_pct": -0.66,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-30",
+          "nav": 0.7951,
+          "change_pct": -0.92,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-31",
+          "nav": 0.7868,
+          "change_pct": -1.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-03",
+          "nav": 0.7934,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-04",
+          "nav": 0.7947,
+          "change_pct": 0.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-05",
+          "nav": 0.7889,
+          "change_pct": -0.73,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-06",
+          "nav": 0.7986,
+          "change_pct": 1.23,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-07",
+          "nav": 0.7965,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-11",
+          "nav": 0.7838,
+          "change_pct": -1.59,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-12",
+          "nav": 0.7833,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-13",
+          "nav": 0.7835,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-14",
+          "nav": 0.7823,
+          "change_pct": -0.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-17",
+          "nav": 0.7779,
+          "change_pct": -0.56,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-18",
+          "nav": 0.7789,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-19",
+          "nav": 0.7913,
+          "change_pct": 1.59,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-20",
+          "nav": 0.7909,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-21",
+          "nav": 0.7807,
+          "change_pct": -1.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-24",
+          "nav": 0.7793,
+          "change_pct": -0.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-25",
+          "nav": 0.7819,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-26",
+          "nav": 0.7785,
+          "change_pct": -0.43,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-27",
+          "nav": 0.7661,
+          "change_pct": -1.59,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-28",
+          "nav": 0.7723,
+          "change_pct": 0.81,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-30",
+          "nav": 0.7723,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-01",
+          "nav": 0.7719,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-02",
+          "nav": 0.7683,
+          "change_pct": -0.47,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-03",
+          "nav": 0.7663,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-04",
+          "nav": 0.773,
+          "change_pct": 0.87,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-05",
+          "nav": 0.7704,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-08",
+          "nav": 0.7618,
+          "change_pct": -1.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-09",
+          "nav": 0.7687,
+          "change_pct": 0.91,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-10",
+          "nav": 0.7569,
+          "change_pct": -1.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-11",
+          "nav": 0.7672,
+          "change_pct": 1.36,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-12",
+          "nav": 0.7733,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-15",
+          "nav": 0.7667,
+          "change_pct": -0.85,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-16",
+          "nav": 0.7595,
+          "change_pct": -0.94,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-17",
+          "nav": 0.7492,
+          "change_pct": -1.36,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-18",
+          "nav": 0.7535,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-19",
+          "nav": 0.7395,
+          "change_pct": -1.86,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-22",
+          "nav": 0.7452,
+          "change_pct": 0.77,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-23",
+          "nav": 0.7321,
+          "change_pct": -1.76,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-24",
+          "nav": 0.7296,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-25",
+          "nav": 0.7128,
+          "change_pct": -2.3,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-26",
+          "nav": 0.7216,
+          "change_pct": 1.23,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-29",
+          "nav": 0.7205,
+          "change_pct": -0.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-30",
+          "nav": 0.711,
+          "change_pct": -1.32,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-31",
+          "nav": 0.7336,
+          "change_pct": 3.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-01",
+          "nav": 0.7322,
+          "change_pct": -0.19,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-02",
+          "nav": 0.718,
+          "change_pct": -1.94,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-05",
+          "nav": 0.7064,
+          "change_pct": -1.62,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-06",
+          "nav": 0.7049,
+          "change_pct": -0.21,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-07",
+          "nav": 0.7193,
+          "change_pct": 2.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-08",
+          "nav": 0.7194,
+          "change_pct": 0.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-09",
+          "nav": 0.7248,
+          "change_pct": 0.75,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-12",
+          "nav": 0.7275,
+          "change_pct": 0.37,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-13",
+          "nav": 0.7299,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-14",
+          "nav": 0.722,
+          "change_pct": -1.08,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-15",
+          "nav": 0.7196,
+          "change_pct": -0.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-16",
+          "nav": 0.728,
+          "change_pct": 1.17,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-19",
+          "nav": 0.7314,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-20",
+          "nav": 0.7274,
+          "change_pct": -0.55,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-21",
+          "nav": 0.7295,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-22",
+          "nav": 0.7342,
+          "change_pct": 0.64,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-23",
+          "nav": 0.7331,
+          "change_pct": -0.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-26",
+          "nav": 0.7375,
+          "change_pct": 0.6,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-27",
+          "nav": 0.7385,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-28",
+          "nav": 0.7287,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-29",
+          "nav": 0.7323,
+          "change_pct": 0.49,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-30",
+          "nav": 0.738,
+          "change_pct": 0.78,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-02",
+          "nav": 0.7278,
+          "change_pct": -1.38,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-03",
+          "nav": 0.7279,
+          "change_pct": 0.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-04",
+          "nav": 0.7169,
+          "change_pct": -1.51,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-05",
+          "nav": 0.7151,
+          "change_pct": -0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-06",
+          "nav": 0.7138,
+          "change_pct": -0.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-09",
+          "nav": 0.7007,
+          "change_pct": -1.84,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-10",
+          "nav": 0.6979,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-11",
+          "nav": 0.6974,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-12",
+          "nav": 0.6998,
+          "change_pct": 0.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-13",
+          "nav": 0.706,
+          "change_pct": 0.89,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-18",
+          "nav": 0.7124,
+          "change_pct": 0.91,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-19",
+          "nav": 0.7305,
+          "change_pct": 2.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-20",
+          "nav": 0.7384,
+          "change_pct": 1.08,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-23",
+          "nav": 0.734,
+          "change_pct": -0.6,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-24",
+          "nav": 0.7573,
+          "change_pct": 3.17,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-25",
+          "nav": 0.7566,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-26",
+          "nav": 0.7895,
+          "change_pct": 4.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-27",
+          "nav": 0.8138,
+          "change_pct": 3.08,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-30",
+          "nav": 0.8415,
+          "change_pct": 3.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-08",
+          "nav": 0.8516,
+          "change_pct": 1.2,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-09",
+          "nav": 0.8325,
+          "change_pct": -2.24,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-10",
+          "nav": 0.8572,
+          "change_pct": 2.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-11",
+          "nav": 0.8563,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-14",
+          "nav": 0.8529,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-15",
+          "nav": 0.8244,
+          "change_pct": -3.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-16",
+          "nav": 0.8292,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-17",
+          "nav": 0.8202,
+          "change_pct": -1.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-18",
+          "nav": 0.8523,
+          "change_pct": 3.91,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-21",
+          "nav": 0.8424,
+          "change_pct": -1.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-22",
+          "nav": 0.8541,
+          "change_pct": 1.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-23",
+          "nav": 0.8674,
+          "change_pct": 1.56,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-24",
+          "nav": 0.8574,
+          "change_pct": -1.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-25",
+          "nav": 0.8533,
+          "change_pct": -0.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-28",
+          "nav": 0.8521,
+          "change_pct": -0.14,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-29",
+          "nav": 0.8485,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-30",
+          "nav": 0.8324,
+          "change_pct": -1.9,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-31",
+          "nav": 0.8247,
+          "change_pct": -0.93,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-01",
+          "nav": 0.829,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-04",
+          "nav": 0.8338,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-05",
+          "nav": 0.8483,
+          "change_pct": 1.74,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-06",
+          "nav": 0.8346,
+          "change_pct": -1.61,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-07",
+          "nav": 0.8515,
+          "change_pct": 2.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-08",
+          "nav": 0.8441,
+          "change_pct": -0.87,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-11",
+          "nav": 0.8387,
+          "change_pct": -0.64,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-12",
+          "nav": 0.8135,
+          "change_pct": -3.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-13",
+          "nav": 0.8125,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-14",
+          "nav": 0.7955,
+          "change_pct": -2.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-15",
+          "nav": 0.7999,
+          "change_pct": 0.55,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-18",
+          "nav": 0.7986,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-19",
+          "nav": 0.8093,
+          "change_pct": 1.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-20",
+          "nav": 0.813,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-21",
+          "nav": 0.8097,
+          "change_pct": -0.41,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-22",
+          "nav": 0.7955,
+          "change_pct": -1.75,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-25",
+          "nav": 0.7981,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-26",
+          "nav": 0.7962,
+          "change_pct": -0.24,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-27",
+          "nav": 0.8191,
+          "change_pct": 2.88,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-28",
+          "nav": 0.8053,
+          "change_pct": -1.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-29",
+          "nav": 0.8089,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-02",
+          "nav": 0.815,
+          "change_pct": 0.75,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-03",
+          "nav": 0.8197,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-04",
+          "nav": 0.8176,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-05",
+          "nav": 0.8107,
+          "change_pct": -0.84,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-06",
+          "nav": 0.8221,
+          "change_pct": 1.41,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-09",
+          "nav": 0.8438,
+          "change_pct": 2.64,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-10",
+          "nav": 0.8345,
+          "change_pct": -1.1,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-11",
+          "nav": 0.8322,
+          "change_pct": -0.28,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-12",
+          "nav": 0.8432,
+          "change_pct": 1.32,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-13",
+          "nav": 0.8256,
+          "change_pct": -2.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-16",
+          "nav": 0.8197,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-17",
+          "nav": 0.8167,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-18",
+          "nav": 0.8243,
+          "change_pct": 0.93,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-19",
+          "nav": 0.8252,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-20",
+          "nav": 0.8247,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-23",
+          "nav": 0.8216,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-24",
+          "nav": 0.8245,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-25",
+          "nav": 0.8245,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-26",
+          "nav": 0.8248,
+          "change_pct": 0.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-27",
+          "nav": 0.8234,
+          "change_pct": -0.17,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-30",
+          "nav": 0.8209,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-31",
+          "nav": 0.8237,
+          "change_pct": 0.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-02",
+          "nav": 0.8108,
+          "change_pct": -1.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-03",
+          "nav": 0.8101,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-06",
+          "nav": 0.8008,
+          "change_pct": -1.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-07",
+          "nav": 0.7993,
+          "change_pct": -0.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-08",
+          "nav": 0.7926,
+          "change_pct": -0.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-09",
+          "nav": 0.7961,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-10",
+          "nav": 0.7906,
+          "change_pct": -0.69,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-13",
+          "nav": 0.7815,
+          "change_pct": -1.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-14",
+          "nav": 0.7965,
+          "change_pct": 1.92,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-15",
+          "nav": 0.7913,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-16",
+          "nav": 0.7993,
+          "change_pct": 1.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-17",
+          "nav": 0.8062,
+          "change_pct": 0.86,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-20",
+          "nav": 0.8149,
+          "change_pct": 1.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-21",
+          "nav": 0.8218,
+          "change_pct": 0.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-22",
+          "nav": 0.8136,
+          "change_pct": -1.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-23",
+          "nav": 0.8049,
+          "change_pct": -1.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-24",
+          "nav": 0.8191,
+          "change_pct": 1.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-27",
+          "nav": 0.8204,
+          "change_pct": 0.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-05",
+          "nav": 0.8314,
+          "change_pct": 1.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-06",
+          "nav": 0.8402,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-07",
+          "nav": 0.8514,
+          "change_pct": 1.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-10",
+          "nav": 0.8604,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-11",
+          "nav": 0.8519,
+          "change_pct": -0.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-12",
+          "nav": 0.8627,
+          "change_pct": 1.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-13",
+          "nav": 0.8529,
+          "change_pct": -1.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-14",
+          "nav": 0.8816,
+          "change_pct": 3.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-17",
+          "nav": 0.8751,
+          "change_pct": -0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-18",
+          "nav": 0.8883,
+          "change_pct": 1.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-19",
+          "nav": 0.893,
+          "change_pct": 0.53,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-20",
+          "nav": 0.883,
+          "change_pct": -1.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-21",
+          "nav": 0.9064,
+          "change_pct": 2.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-24",
+          "nav": 0.899,
+          "change_pct": -0.82,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-25",
+          "nav": 0.8912,
+          "change_pct": -0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-26",
+          "nav": 0.9134,
+          "change_pct": 2.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-27",
+          "nav": 0.9143,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-28",
+          "nav": 0.8834,
+          "change_pct": -3.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-03",
+          "nav": 0.8865,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-04",
+          "nav": 0.8873,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-05",
+          "nav": 0.9114,
+          "change_pct": 2.72,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-06",
+          "nav": 0.9342,
+          "change_pct": 2.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-07",
+          "nav": 0.9335,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-10",
+          "nav": 0.9202,
+          "change_pct": -1.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-11",
+          "nav": 0.9289,
+          "change_pct": 0.95,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-12",
+          "nav": 0.925,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-13",
+          "nav": 0.9181,
+          "change_pct": -0.75,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-14",
+          "nav": 0.9395,
+          "change_pct": 2.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-17",
+          "nav": 0.9448,
+          "change_pct": 0.56,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-18",
+          "nav": 0.9676,
+          "change_pct": 2.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-19",
+          "nav": 0.9654,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-20",
+          "nav": 0.9488,
+          "change_pct": -1.72,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-21",
+          "nav": 0.9284,
+          "change_pct": -2.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-24",
+          "nav": 0.9359,
+          "change_pct": 0.81,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-25",
+          "nav": 0.9145,
+          "change_pct": -2.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-26",
+          "nav": 0.9258,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-27",
+          "nav": 0.9364,
+          "change_pct": 1.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-28",
+          "nav": 0.924,
+          "change_pct": -1.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-31",
+          "nav": 0.916,
+          "change_pct": -0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-01",
+          "nav": 0.9216,
+          "change_pct": 0.61,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-02",
+          "nav": 0.9174,
+          "change_pct": -0.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-03",
+          "nav": 0.8983,
+          "change_pct": -2.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-07",
+          "nav": 0.7715,
+          "change_pct": -14.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-08",
+          "nav": 0.7901,
+          "change_pct": 2.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-09",
+          "nav": 0.8066,
+          "change_pct": 2.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-10",
+          "nav": 0.8257,
+          "change_pct": 2.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-11",
+          "nav": 0.8422,
+          "change_pct": 2.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-14",
+          "nav": 0.8624,
+          "change_pct": 2.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-15",
+          "nav": 0.8612,
+          "change_pct": -0.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-16",
+          "nav": 0.8463,
+          "change_pct": -1.73,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-17",
+          "nav": 0.8537,
+          "change_pct": 0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-18",
+          "nav": 0.8536,
+          "change_pct": -0.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-21",
+          "nav": 0.854,
+          "change_pct": 0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-22",
+          "nav": 0.874,
+          "change_pct": 2.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-23",
+          "nav": 0.8867,
+          "change_pct": 1.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-24",
+          "nav": 0.8867,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-25",
+          "nav": 0.8819,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-28",
+          "nav": 0.8954,
+          "change_pct": 1.53,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-29",
+          "nav": 0.9012,
+          "change_pct": 0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-30",
+          "nav": 0.9006,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-06",
+          "nav": 0.9123,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-07",
+          "nav": 0.9042,
+          "change_pct": -0.89,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-08",
+          "nav": 0.9034,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-09",
+          "nav": 0.909,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-12",
+          "nav": 0.9236,
+          "change_pct": 1.61,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-13",
+          "nav": 0.9174,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-14",
+          "nav": 0.9267,
+          "change_pct": 1.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-15",
+          "nav": 0.9225,
+          "change_pct": -0.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-16",
+          "nav": 0.9163,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-19",
+          "nav": 0.9227,
+          "change_pct": 0.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-20",
+          "nav": 0.9344,
+          "change_pct": 1.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-21",
+          "nav": 0.9459,
+          "change_pct": 1.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-22",
+          "nav": 0.9443,
+          "change_pct": -0.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-23",
+          "nav": 0.9449,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-26",
+          "nav": 0.9342,
+          "change_pct": -1.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-27",
+          "nav": 0.9387,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-28",
+          "nav": 0.9294,
+          "change_pct": -0.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-29",
+          "nav": 0.9457,
+          "change_pct": 1.75,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-30",
+          "nav": 0.9345,
+          "change_pct": -1.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-03",
+          "nav": 0.9471,
+          "change_pct": 1.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-04",
+          "nav": 0.9626,
+          "change_pct": 1.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-05",
+          "nav": 0.9593,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-06",
+          "nav": 0.9622,
+          "change_pct": 0.3,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-09",
+          "nav": 0.9749,
+          "change_pct": 1.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-10",
+          "nav": 0.9813,
+          "change_pct": 0.66,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-11",
+          "nav": 0.9926,
+          "change_pct": 1.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-12",
+          "nav": 0.9915,
+          "change_pct": -0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-13",
+          "nav": 0.9899,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-16",
+          "nav": 0.9919,
+          "change_pct": 0.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-17",
+          "nav": 0.98,
+          "change_pct": -1.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-18",
+          "nav": 0.9747,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-19",
+          "nav": 0.9455,
+          "change_pct": -3.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-20",
+          "nav": 0.9503,
+          "change_pct": 0.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-23",
+          "nav": 0.9594,
+          "change_pct": 0.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-24",
+          "nav": 0.9802,
+          "change_pct": 2.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-25",
+          "nav": 0.9875,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-26",
+          "nav": 0.9874,
+          "change_pct": -0.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-27",
+          "nav": 0.9881,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-30",
+          "nav": 0.9852,
+          "change_pct": -0.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-01",
+          "nav": 0.9845,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-02",
+          "nav": 0.9856,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-03",
+          "nav": 0.9884,
+          "change_pct": 0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-04",
+          "nav": 0.9873,
+          "change_pct": -0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-07",
+          "nav": 0.9809,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-08",
+          "nav": 0.9933,
+          "change_pct": 1.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-09",
+          "nav": 0.9858,
+          "change_pct": -0.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-10",
+          "nav": 0.99,
+          "change_pct": 0.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-11",
+          "nav": 0.9971,
+          "change_pct": 0.72,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-14",
+          "nav": 1.0023,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-15",
+          "nav": 1.0134,
+          "change_pct": 1.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-16",
+          "nav": 1.0114,
+          "change_pct": -0.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-17",
+          "nav": 1.0231,
+          "change_pct": 1.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-18",
+          "nav": 1.038,
+          "change_pct": 1.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-21",
+          "nav": 1.0451,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-22",
+          "nav": 1.0495,
+          "change_pct": 0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-23",
+          "nav": 1.0566,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-24",
+          "nav": 1.0674,
+          "change_pct": 1.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-25",
+          "nav": 1.0581,
+          "change_pct": -0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-28",
+          "nav": 1.0634,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-29",
+          "nav": 1.0787,
+          "change_pct": 1.44,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-30",
+          "nav": 1.0669,
+          "change_pct": -1.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-31",
+          "nav": 1.0483,
+          "change_pct": -1.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-01",
+          "nav": 1.0353,
+          "change_pct": -1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-04",
+          "nav": 1.0472,
+          "change_pct": 1.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-05",
+          "nav": 1.0605,
+          "change_pct": 1.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-06",
+          "nav": 1.0664,
+          "change_pct": 0.56,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-07",
+          "nav": 1.065,
+          "change_pct": -0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-08",
+          "nav": 1.0701,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-11",
+          "nav": 1.0692,
+          "change_pct": -0.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-12",
+          "nav": 1.07,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-13",
+          "nav": 1.1007,
+          "change_pct": 2.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-14",
+          "nav": 1.1017,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-15",
+          "nav": 1.123,
+          "change_pct": 1.93,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-18",
+          "nav": 1.1215,
+          "change_pct": -0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-19",
+          "nav": 1.1129,
+          "change_pct": -0.77,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-20",
+          "nav": 1.1192,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-21",
+          "nav": 1.1189,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-22",
+          "nav": 1.132,
+          "change_pct": 1.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-25",
+          "nav": 1.1498,
+          "change_pct": 1.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-26",
+          "nav": 1.1473,
+          "change_pct": -0.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-27",
+          "nav": 1.1287,
+          "change_pct": -1.62,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-28",
+          "nav": 1.1281,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-29",
+          "nav": 1.1409,
+          "change_pct": 1.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-01",
+          "nav": 1.1699,
+          "change_pct": 2.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-02",
+          "nav": 1.1556,
+          "change_pct": -1.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-03",
+          "nav": 1.1678,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-04",
+          "nav": 1.1287,
+          "change_pct": -3.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-05",
+          "nav": 1.176,
+          "change_pct": 4.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-08",
+          "nav": 1.1768,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-09",
+          "nav": 1.1825,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-10",
+          "nav": 1.1957,
+          "change_pct": 1.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-11",
+          "nav": 1.2056,
+          "change_pct": 0.83,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-12",
+          "nav": 1.2255,
+          "change_pct": 1.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-15",
+          "nav": 1.2265,
+          "change_pct": 0.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-16",
+          "nav": 1.2218,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-17",
+          "nav": 1.2413,
+          "change_pct": 1.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-18",
+          "nav": 1.2369,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-19",
+          "nav": 1.2488,
+          "change_pct": 0.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-22",
+          "nav": 1.2618,
+          "change_pct": 1.04,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-23",
+          "nav": 1.2492,
+          "change_pct": -1.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-24",
+          "nav": 1.2639,
+          "change_pct": 1.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-25",
+          "nav": 1.2785,
+          "change_pct": 1.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-26",
+          "nav": 1.2623,
+          "change_pct": -1.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-29",
+          "nav": 1.2925,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-30",
+          "nav": 1.3195,
+          "change_pct": 2.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-09",
+          "nav": 1.3599,
+          "change_pct": 3.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-10",
+          "nav": 1.3083,
+          "change_pct": -3.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-13",
+          "nav": 1.3127,
+          "change_pct": 0.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-14",
+          "nav": 1.2533,
+          "change_pct": -4.53,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-15",
+          "nav": 1.2885,
+          "change_pct": 2.81,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-16",
+          "nav": 1.2836,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-17",
+          "nav": 1.2343,
+          "change_pct": -3.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-20",
+          "nav": 1.2511,
+          "change_pct": 1.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-21",
+          "nav": 1.2583,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-22",
+          "nav": 1.2517,
+          "change_pct": -0.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-23",
+          "nav": 1.2524,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-24",
+          "nav": 1.2887,
+          "change_pct": 2.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-27",
+          "nav": 1.3135,
+          "change_pct": 1.92,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-28",
+          "nav": 1.2878,
+          "change_pct": -1.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-29",
+          "nav": 1.2929,
+          "change_pct": 0.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-30",
+          "nav": 1.3121,
+          "change_pct": 1.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-31",
+          "nav": 1.2852,
+          "change_pct": -2.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-03",
+          "nav": 1.2798,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-04",
+          "nav": 1.2534,
+          "change_pct": -2.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-05",
+          "nav": 1.2613,
+          "change_pct": 0.63,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-06",
+          "nav": 1.303,
+          "change_pct": 3.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-07",
+          "nav": 1.2883,
+          "change_pct": -1.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-10",
+          "nav": 1.2896,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-11",
+          "nav": 1.2838,
+          "change_pct": -0.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-12",
+          "nav": 1.2921,
+          "change_pct": 0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-13",
+          "nav": 1.3183,
+          "change_pct": 2.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-14",
+          "nav": 1.2916,
+          "change_pct": -2.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-17",
+          "nav": 1.2746,
+          "change_pct": -1.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-18",
+          "nav": 1.251,
+          "change_pct": -1.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-19",
+          "nav": 1.2537,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-20",
+          "nav": 1.2524,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-21",
+          "nav": 1.2103,
+          "change_pct": -3.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-24",
+          "nav": 1.2244,
+          "change_pct": 1.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-25",
+          "nav": 1.2374,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-26",
+          "nav": 1.242,
+          "change_pct": 0.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-27",
+          "nav": 1.2429,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-28",
+          "nav": 1.2455,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-01",
+          "nav": 1.2639,
+          "change_pct": 1.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-02",
+          "nav": 1.2656,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-03",
+          "nav": 1.2627,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-04",
+          "nav": 1.2737,
+          "change_pct": 0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-05",
+          "nav": 1.2897,
+          "change_pct": 1.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-08",
+          "nav": 1.2836,
+          "change_pct": -0.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-09",
+          "nav": 1.2588,
+          "change_pct": -1.93,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-10",
+          "nav": 1.2601,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-11",
+          "nav": 1.2516,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-12",
+          "nav": 1.2695,
+          "change_pct": 1.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-15",
+          "nav": 1.2582,
+          "change_pct": -0.89,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-16",
+          "nav": 1.2329,
+          "change_pct": -2.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-17",
+          "nav": 1.2483,
+          "change_pct": 1.25,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-18",
+          "nav": 1.2391,
+          "change_pct": -0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-19",
+          "nav": 1.2497,
+          "change_pct": 0.86,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-22",
+          "nav": 1.2668,
+          "change_pct": 1.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-23",
+          "nav": 1.2617,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-24",
+          "nav": 1.2614,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-25",
+          "nav": 1.2608,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-26",
+          "nav": 1.2643,
+          "change_pct": 0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-29",
+          "nav": 1.2517,
+          "change_pct": -1.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-30",
+          "nav": 1.2584,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-31",
+          "nav": 1.25,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-05",
+          "nav": 1.2894,
+          "change_pct": 3.15,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-06",
+          "nav": 1.3108,
+          "change_pct": 1.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-07",
+          "nav": 1.314,
+          "change_pct": 0.24,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-08",
+          "nav": 1.3024,
+          "change_pct": -0.88,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-09",
+          "nav": 1.3128,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-12",
+          "nav": 1.3193,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-13",
+          "nav": 1.3207,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-14",
+          "nav": 1.328,
+          "change_pct": 0.55,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-15",
+          "nav": 1.3283,
+          "change_pct": 0.02,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-16",
+          "nav": 1.3346,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-19",
+          "nav": 1.3293,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-20",
+          "nav": 1.3246,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-21",
+          "nav": 1.337,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-22",
+          "nav": 1.333,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-23",
+          "nav": 1.3387,
+          "change_pct": 0.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-26",
+          "nav": 1.3417,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-27",
+          "nav": 1.3529,
+          "change_pct": 0.83,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-28",
+          "nav": 1.3805,
+          "change_pct": 2.04,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-29",
+          "nav": 1.3797,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-30",
+          "nav": 1.3393,
+          "change_pct": -2.93,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-02",
+          "nav": 1.2936,
+          "change_pct": -3.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-03",
+          "nav": 1.316,
+          "change_pct": 1.73,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-04",
+          "nav": 1.3178,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-05",
+          "nav": 1.2976,
+          "change_pct": -1.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-06",
+          "nav": 1.2872,
+          "change_pct": -0.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-09",
+          "nav": 1.3179,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-10",
+          "nav": 1.3273,
+          "change_pct": 0.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-11",
+          "nav": 1.3311,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-12",
+          "nav": 1.3392,
+          "change_pct": 0.61,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-13",
+          "nav": 1.3045,
+          "change_pct": -2.59,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-24",
+          "nav": 1.3288,
+          "change_pct": 1.86,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-25",
+          "nav": 1.3429,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-26",
+          "nav": 1.3217,
+          "change_pct": -1.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-27",
+          "nav": 1.3277,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-02",
+          "nav": 1.3271,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-03",
+          "nav": 1.2801,
+          "change_pct": -3.54,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-04",
+          "nav": 1.2692,
+          "change_pct": -0.85,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-05",
+          "nav": 1.2641,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-06",
+          "nav": 1.2691,
+          "change_pct": 0.4,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-09",
+          "nav": 1.2544,
+          "change_pct": -1.16,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-10",
+          "nav": 1.2762,
+          "change_pct": 1.74,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-11",
+          "nav": 1.277,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-12",
+          "nav": 1.2718,
+          "change_pct": -0.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-13",
+          "nav": 1.2552,
+          "change_pct": -1.31,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-16",
+          "nav": 1.2554,
+          "change_pct": 0.02,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-17",
+          "nav": 1.2381,
+          "change_pct": -1.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-18",
+          "nav": 1.2458,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-19",
+          "nav": 1.2001,
+          "change_pct": -3.67,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-20",
+          "nav": 1.1998,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-23",
+          "nav": 1.1584,
+          "change_pct": -3.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-24",
+          "nav": 1.1889,
+          "change_pct": 2.63,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-25",
+          "nav": 1.1939,
+          "change_pct": 0.42,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-26",
+          "nav": 1.1687,
+          "change_pct": -2.11,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-27",
+          "nav": 1.1728,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-30",
+          "nav": 1.1744,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-31",
+          "nav": 1.164,
+          "change_pct": -0.89,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-01",
+          "nav": 1.1871,
+          "change_pct": 1.98,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-02",
+          "nav": 1.1773,
+          "change_pct": -0.83,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-03",
+          "nav": 1.177,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-07",
+          "nav": 1.1757,
+          "change_pct": -0.11,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-08",
+          "nav": 1.2131,
+          "change_pct": 3.18,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-09",
+          "nav": 1.2195,
+          "change_pct": 0.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-10",
+          "nav": 1.2213,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-13",
+          "nav": 1.2066,
+          "change_pct": -1.2,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-14",
+          "nav": 1.2204,
+          "change_pct": 1.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-15",
+          "nav": 1.2158,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-16",
+          "nav": 1.2394,
+          "change_pct": 1.94,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-17",
+          "nav": 1.2249,
+          "change_pct": -1.17,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-20",
+          "nav": 1.2322,
+          "change_pct": 0.6,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-21",
+          "nav": 1.2358,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-22",
+          "nav": 1.2313,
+          "change_pct": -0.36,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-23",
+          "nav": 1.2148,
+          "change_pct": -1.34,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-24",
+          "nav": 1.2227,
+          "change_pct": 0.65,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-27",
+          "nav": 1.2231,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-28",
+          "nav": 1.2075,
+          "change_pct": -1.28,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-29",
+          "nav": 1.2284,
+          "change_pct": 1.73,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-30",
+          "nav": 1.2195,
+          "change_pct": -0.72,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-06",
+          "nav": 1.2525,
+          "change_pct": 2.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-07",
+          "nav": 1.2688,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-08",
+          "nav": 1.2625,
+          "change_pct": -0.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-11",
+          "nav": 1.2665,
+          "change_pct": 0.32,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-12",
+          "nav": 1.2596,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-13",
+          "nav": 1.2652,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-14",
+          "nav": 1.2442,
+          "change_pct": -1.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-15",
+          "nav": 1.2192,
+          "change_pct": -2.01,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-18",
+          "nav": 1.2036,
+          "change_pct": -1.28,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-19",
+          "nav": 1.1966,
+          "change_pct": -0.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-20",
+          "nav": 1.2075,
+          "change_pct": 0.91,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-21",
+          "nav": 1.1902,
+          "change_pct": -1.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-22",
+          "nav": 1.2092,
+          "change_pct": 1.6,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-25",
+          "nav": 1.2084,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-26",
+          "nav": 1.2102,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-27",
+          "nav": 1.2057,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-28",
+          "nav": 1.2042,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-29",
+          "nav": 1.199,
+          "change_pct": -0.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-01",
+          "nav": 1.1956,
+          "change_pct": -0.28,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-02",
+          "nav": 1.2134,
+          "change_pct": 1.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-03",
+          "nav": 1.2117,
+          "change_pct": -0.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-04",
+          "nav": 1.1968,
+          "change_pct": -1.23,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-05",
+          "nav": 1.1677,
+          "change_pct": -2.43,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-08",
+          "nav": 1.1429,
+          "change_pct": -2.12,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-09",
+          "nav": 1.1549,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-10",
+          "nav": 1.1375,
+          "change_pct": -1.51,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-11",
+          "nav": 1.1459,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-12",
+          "nav": 1.1573,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-15",
+          "nav": 1.1867,
+          "change_pct": 2.54,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-16",
+          "nav": 1.167,
+          "change_pct": -1.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-17",
+          "nav": 1.1697,
+          "change_pct": 0.23,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-18",
+          "nav": 1.1572,
+          "change_pct": -1.07,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-22",
+          "nav": 1.162,
+          "change_pct": 0.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-23",
+          "nav": 1.1389,
+          "change_pct": -1.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-24",
+          "nav": 1.1721,
+          "change_pct": 2.92,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-25",
+          "nav": 1.175,
+          "change_pct": 0.25,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-26",
+          "nav": 1.1448,
+          "change_pct": -2.57,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-29",
+          "nav": 1.1708,
+          "change_pct": 2.27,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-30",
+          "nav": 1.1908,
+          "change_pct": 1.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-01",
+          "nav": 1.1899,
+          "change_pct": -0.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-02",
+          "nav": 1.1512,
+          "change_pct": -3.25,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-03",
+          "nav": 1.1606,
+          "change_pct": 0.82,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-06",
+          "nav": 1.1661,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-07",
+          "nav": 1.1486,
+          "change_pct": -1.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-08",
+          "nav": 1.1581,
+          "change_pct": 0.83,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-09",
+          "nav": 1.1674,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-10",
+          "nav": 1.1531,
+          "change_pct": -1.22,
+          "dividend": null
+        }
+      ],
+      "returns": {
+        "last_1_month_pct": 1.37,
+        "last_3_month_pct": -5.58,
+        "last_6_month_pct": -12.16,
+        "last_1_year_pct": 16.47
+      },
+      "source_url": "https://fund.eastmoney.com/012588.html",
+      "top_holdings": [],
+      "holdings_report_date": "2026-03-31",
+      "scale": "0.42",
+      "scale_date": "2026-03-31",
+      "warnings": []
+    },
+    {
+      "code": "270042",
+      "alias": "主题弹性观察",
+      "target_weight": null,
+      "tags": [
+        "主题",
+        "弹性"
+      ],
+      "name": "广发纳斯达克100ETF联接人民币(QDII)A",
+      "ok": true,
+      "stale": false,
+      "errors": [],
+      "sources": [
+        {
+          "type": "estimate_and_nav",
+          "name": "天天基金实时估值接口",
+          "url": "https://fundgz.1234567.com.cn/js/270042.js",
+          "confidence": "observational"
+        },
+        {
+          "type": "fund_profile",
+          "name": "天天基金详情页数据",
+          "url": "https://fund.eastmoney.com/270042.html",
+          "confidence": "observational"
+        },
+        {
+          "type": "top_holdings",
+          "name": "天天基金基金档案持仓",
+          "url": "https://fundf10.eastmoney.com/ccmx_270042.html",
+          "confidence": "disclosure_mirror"
+        },
+        {
+          "type": "scale",
+          "name": "天天基金基金档案规模变动",
+          "url": "https://fundf10.eastmoney.com/gmbd_270042.html",
+          "confidence": "disclosure_mirror"
+        }
+      ],
+      "nav": 8.2898,
+      "nav_raw": "8.2898",
+      "nav_date": "2026-07-09",
+      "estimate": {
+        "value": 8.3158,
+        "value_raw": "8.3158",
+        "pct": 0.31,
+        "pct_raw": "0.31",
+        "time": "2026-07-11 04:00",
+        "is_estimated": true,
+        "source": "tiantian_fundgz"
+      },
+      "manager": "刘杰",
+      "managers": [
+        {
+          "id": "30283311",
+          "name": "刘杰",
+          "work_time": "12年又104天",
+          "fund_size": "1071.35亿(41只基金)",
+          "power": {
+            "avr": "87.78",
+            "categories": [
+              "经验值",
+              "收益率",
+              "跟踪误差",
+              "超额收益",
+              "管理规模"
+            ],
+            "dsc": [
+              "反映基金经理从业年限和管理基金的经验",
+              "根据基金经理投资的阶段收益评分，反映<br>基金经理投资的盈利能力",
+              "根据基金跟踪指数的密切程度评分，反<br>应基金经理的管理能力",
+              "根据基金经理投资的超额风险所带来的<br>超额收益评分",
+              "根据基金经理现任管理基金资产规模评分"
+            ],
+            "data": [
+              94.4,
+              80.1,
+              96.3,
+              77.0,
+              91.2
+            ],
+            "jzrq": "2026-07-10"
+          }
+        }
+      ],
+      "net_worth_trend": [
+        {
+          "date": "2024-05-21",
+          "nav": 5.649,
+          "change_pct": 0.23,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-22",
+          "nav": 5.6468,
+          "change_pct": -0.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-23",
+          "nav": 5.6248,
+          "change_pct": -0.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-24",
+          "nav": 5.6799,
+          "change_pct": 0.98,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-27",
+          "nav": 5.6788,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-28",
+          "nav": 5.7001,
+          "change_pct": 0.38,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-29",
+          "nav": 5.6618,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-30",
+          "nav": 5.6009,
+          "change_pct": -1.08,
+          "dividend": null
+        },
+        {
+          "date": "2024-05-31",
+          "nav": 5.5975,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-03",
+          "nav": 5.6173,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-04",
+          "nav": 5.6337,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-05",
+          "nav": 5.7467,
+          "change_pct": 2.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-06",
+          "nav": 5.7444,
+          "change_pct": -0.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-07",
+          "nav": 5.7383,
+          "change_pct": -0.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-11",
+          "nav": 5.8024,
+          "change_pct": 1.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-12",
+          "nav": 5.8793,
+          "change_pct": 1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-13",
+          "nav": 5.9098,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-14",
+          "nav": 5.9369,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-17",
+          "nav": 6.0071,
+          "change_pct": 1.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-18",
+          "nav": 6.0092,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-19",
+          "nav": 6.009,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-20",
+          "nav": 5.9645,
+          "change_pct": -0.74,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-21",
+          "nav": 5.9481,
+          "change_pct": -0.27,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-24",
+          "nav": 5.8802,
+          "change_pct": -1.14,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-25",
+          "nav": 5.9508,
+          "change_pct": 1.2,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-26",
+          "nav": 5.9676,
+          "change_pct": 0.28,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-27",
+          "nav": 5.9796,
+          "change_pct": 0.2,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-28",
+          "nav": 5.9468,
+          "change_pct": -0.55,
+          "dividend": null
+        },
+        {
+          "date": "2024-06-30",
+          "nav": 5.9468,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-01",
+          "nav": 5.9836,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-02",
+          "nav": 6.0442,
+          "change_pct": 1.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-03",
+          "nav": 6.0975,
+          "change_pct": 0.88,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-04",
+          "nav": 6.097,
+          "change_pct": -0.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-05",
+          "nav": 6.1569,
+          "change_pct": 0.98,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-08",
+          "nav": 6.1693,
+          "change_pct": 0.2,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-09",
+          "nav": 6.1758,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-10",
+          "nav": 6.243,
+          "change_pct": 1.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-11",
+          "nav": 6.1046,
+          "change_pct": -2.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-12",
+          "nav": 6.1349,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-15",
+          "nav": 6.1503,
+          "change_pct": 0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-16",
+          "nav": 6.1537,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-17",
+          "nav": 5.9755,
+          "change_pct": -2.9,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-18",
+          "nav": 5.9455,
+          "change_pct": -0.5,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-19",
+          "nav": 5.8921,
+          "change_pct": -0.9,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-22",
+          "nav": 5.9818,
+          "change_pct": 1.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-23",
+          "nav": 5.9594,
+          "change_pct": -0.37,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-24",
+          "nav": 5.7432,
+          "change_pct": -3.63,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-25",
+          "nav": 5.6796,
+          "change_pct": -1.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-26",
+          "nav": 5.733,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-29",
+          "nav": 5.7473,
+          "change_pct": 0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-30",
+          "nav": 5.6708,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-07-31",
+          "nav": 5.8399,
+          "change_pct": 2.98,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-01",
+          "nav": 5.6971,
+          "change_pct": -2.45,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-02",
+          "nav": 5.5664,
+          "change_pct": -2.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-05",
+          "nav": 5.3975,
+          "change_pct": -3.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-06",
+          "nav": 5.4499,
+          "change_pct": 0.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-07",
+          "nav": 5.3947,
+          "change_pct": -1.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-08",
+          "nav": 5.5659,
+          "change_pct": 3.17,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-09",
+          "nav": 5.5951,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-12",
+          "nav": 5.6051,
+          "change_pct": 0.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-13",
+          "nav": 5.7441,
+          "change_pct": 2.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-14",
+          "nav": 5.7437,
+          "change_pct": -0.01,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-15",
+          "nav": 5.8811,
+          "change_pct": 2.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-16",
+          "nav": 5.8924,
+          "change_pct": 0.19,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-19",
+          "nav": 5.9655,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-20",
+          "nav": 5.945,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-21",
+          "nav": 5.9741,
+          "change_pct": 0.49,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-22",
+          "nav": 5.8705,
+          "change_pct": -1.73,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-23",
+          "nav": 5.9469,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-26",
+          "nav": 5.8721,
+          "change_pct": -1.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-27",
+          "nav": 5.8987,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-28",
+          "nav": 5.831,
+          "change_pct": -1.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-29",
+          "nav": 5.8273,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-08-30",
+          "nav": 5.8866,
+          "change_pct": 1.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-02",
+          "nav": 5.879,
+          "change_pct": -0.13,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-03",
+          "nav": 5.7046,
+          "change_pct": -2.97,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-04",
+          "nav": 5.696,
+          "change_pct": -0.15,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-05",
+          "nav": 5.6889,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-06",
+          "nav": 5.536,
+          "change_pct": -2.69,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-09",
+          "nav": 5.6093,
+          "change_pct": 1.32,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-10",
+          "nav": 5.6685,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-11",
+          "nav": 5.7911,
+          "change_pct": 2.16,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-12",
+          "nav": 5.8483,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-13",
+          "nav": 5.8612,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-18",
+          "nav": 5.8004,
+          "change_pct": -1.04,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-19",
+          "nav": 5.9541,
+          "change_pct": 2.65,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-20",
+          "nav": 5.9142,
+          "change_pct": -0.67,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-23",
+          "nav": 5.9222,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-24",
+          "nav": 5.9484,
+          "change_pct": 0.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-25",
+          "nav": 5.9337,
+          "change_pct": -0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-26",
+          "nav": 5.9866,
+          "change_pct": 0.89,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-27",
+          "nav": 5.9363,
+          "change_pct": -0.84,
+          "dividend": null
+        },
+        {
+          "date": "2024-09-30",
+          "nav": 5.949,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-08",
+          "nav": 6.0112,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-09",
+          "nav": 6.0464,
+          "change_pct": 0.59,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-10",
+          "nav": 6.0519,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-11",
+          "nav": 6.0584,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-14",
+          "nav": 6.1053,
+          "change_pct": 0.77,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-15",
+          "nav": 6.0334,
+          "change_pct": -1.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-16",
+          "nav": 6.0649,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-17",
+          "nav": 6.0718,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-18",
+          "nav": 6.1138,
+          "change_pct": 0.69,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-21",
+          "nav": 6.1029,
+          "change_pct": -0.18,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-22",
+          "nav": 6.1287,
+          "change_pct": 0.42,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-23",
+          "nav": 6.0379,
+          "change_pct": -1.48,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-24",
+          "nav": 6.0887,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-25",
+          "nav": 6.1081,
+          "change_pct": 0.32,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-28",
+          "nav": 6.1239,
+          "change_pct": 0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-29",
+          "nav": 6.1789,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-30",
+          "nav": 6.1408,
+          "change_pct": -0.62,
+          "dividend": null
+        },
+        {
+          "date": "2024-10-31",
+          "nav": 5.9856,
+          "change_pct": -2.53,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-01",
+          "nav": 6.0181,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-04",
+          "nav": 6.0026,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-05",
+          "nav": 6.0641,
+          "change_pct": 1.02,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-06",
+          "nav": 6.2208,
+          "change_pct": 2.58,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-07",
+          "nav": 6.3664,
+          "change_pct": 2.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-08",
+          "nav": 6.3527,
+          "change_pct": -0.22,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-11",
+          "nav": 6.3773,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-12",
+          "nav": 6.3794,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-13",
+          "nav": 6.3738,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-14",
+          "nav": 6.3305,
+          "change_pct": -0.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-15",
+          "nav": 6.1857,
+          "change_pct": -2.29,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-18",
+          "nav": 6.2202,
+          "change_pct": 0.56,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-19",
+          "nav": 6.262,
+          "change_pct": 0.67,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-20",
+          "nav": 6.2578,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-21",
+          "nav": 6.2799,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-22",
+          "nav": 6.2873,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-25",
+          "nav": 6.2937,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-26",
+          "nav": 6.3267,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-27",
+          "nav": 6.2816,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-28",
+          "nav": 6.2741,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2024-11-29",
+          "nav": 6.3259,
+          "change_pct": 0.83,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-02",
+          "nav": 6.3921,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-03",
+          "nav": 6.4195,
+          "change_pct": 0.43,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-04",
+          "nav": 6.4909,
+          "change_pct": 1.11,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-05",
+          "nav": 6.4679,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-06",
+          "nav": 6.5197,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-09",
+          "nav": 6.4732,
+          "change_pct": -0.71,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-10",
+          "nav": 6.4567,
+          "change_pct": -0.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-11",
+          "nav": 6.5653,
+          "change_pct": 1.68,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-12",
+          "nav": 6.5226,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-13",
+          "nav": 6.5675,
+          "change_pct": 0.69,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-16",
+          "nav": 6.6555,
+          "change_pct": 1.34,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-17",
+          "nav": 6.6296,
+          "change_pct": -0.39,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-18",
+          "nav": 6.4014,
+          "change_pct": -3.44,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-19",
+          "nav": 6.3755,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-20",
+          "nav": 6.4249,
+          "change_pct": 0.77,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-23",
+          "nav": 6.4849,
+          "change_pct": 0.93,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-24",
+          "nav": 6.5694,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-25",
+          "nav": 6.5672,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-26",
+          "nav": 6.5614,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-27",
+          "nav": 6.4742,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-30",
+          "nav": 6.3934,
+          "change_pct": -1.25,
+          "dividend": null
+        },
+        {
+          "date": "2024-12-31",
+          "nav": 6.3379,
+          "change_pct": -0.87,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-02",
+          "nav": 6.3233,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-03",
+          "nav": 6.4237,
+          "change_pct": 1.59,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-06",
+          "nav": 6.4932,
+          "change_pct": 1.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-07",
+          "nav": 6.3793,
+          "change_pct": -1.75,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-08",
+          "nav": 6.3811,
+          "change_pct": 0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-09",
+          "nav": 6.3793,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-10",
+          "nav": 6.2775,
+          "change_pct": -1.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-13",
+          "nav": 6.2564,
+          "change_pct": -0.34,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-14",
+          "nav": 6.2462,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-15",
+          "nav": 6.3915,
+          "change_pct": 2.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-16",
+          "nav": 6.3476,
+          "change_pct": -0.69,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-17",
+          "nav": 6.4519,
+          "change_pct": 1.64,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-20",
+          "nav": 6.4505,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-21",
+          "nav": 6.4718,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-22",
+          "nav": 6.5539,
+          "change_pct": 1.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-23",
+          "nav": 6.5679,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-24",
+          "nav": 6.5304,
+          "change_pct": -0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-01-27",
+          "nav": 6.3399,
+          "change_pct": -2.92,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-05",
+          "nav": 6.4813,
+          "change_pct": 2.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-06",
+          "nav": 6.5115,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-07",
+          "nav": 6.4275,
+          "change_pct": -1.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-10",
+          "nav": 6.5047,
+          "change_pct": 1.2,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-11",
+          "nav": 6.4876,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-12",
+          "nav": 6.4937,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-13",
+          "nav": 6.5864,
+          "change_pct": 1.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-14",
+          "nav": 6.61,
+          "change_pct": 0.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-17",
+          "nav": 6.609,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-18",
+          "nav": 6.621,
+          "change_pct": 0.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-19",
+          "nav": 6.6279,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-20",
+          "nav": 6.5992,
+          "change_pct": -0.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-21",
+          "nav": 6.4637,
+          "change_pct": -2.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-24",
+          "nav": 6.3902,
+          "change_pct": -1.14,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-25",
+          "nav": 6.3112,
+          "change_pct": -1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-26",
+          "nav": 6.3243,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-27",
+          "nav": 6.1533,
+          "change_pct": -2.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-02-28",
+          "nav": 6.2511,
+          "change_pct": 1.59,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-03",
+          "nav": 6.1161,
+          "change_pct": -2.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-04",
+          "nav": 6.0945,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-05",
+          "nav": 6.1732,
+          "change_pct": 1.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-06",
+          "nav": 6.0044,
+          "change_pct": -2.73,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-07",
+          "nav": 6.0481,
+          "change_pct": 0.73,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-10",
+          "nav": 5.8241,
+          "change_pct": -3.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-11",
+          "nav": 5.8084,
+          "change_pct": -0.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-12",
+          "nav": 5.8707,
+          "change_pct": 1.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-13",
+          "nav": 5.7624,
+          "change_pct": -1.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-14",
+          "nav": 5.9056,
+          "change_pct": 2.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-17",
+          "nav": 5.9336,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-18",
+          "nav": 5.8381,
+          "change_pct": -1.61,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-19",
+          "nav": 5.9105,
+          "change_pct": 1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-20",
+          "nav": 5.8969,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-21",
+          "nav": 5.9201,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-24",
+          "nav": 6.0453,
+          "change_pct": 2.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-25",
+          "nav": 6.0777,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-26",
+          "nav": 5.9655,
+          "change_pct": -1.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-27",
+          "nav": 5.9314,
+          "change_pct": -0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-28",
+          "nav": 5.7787,
+          "change_pct": -2.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-03-31",
+          "nav": 5.7788,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-01",
+          "nav": 5.8234,
+          "change_pct": 0.77,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-02",
+          "nav": 5.8669,
+          "change_pct": 0.75,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-03",
+          "nav": 5.5644,
+          "change_pct": -5.16,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-07",
+          "nav": 5.2543,
+          "change_pct": -5.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-08",
+          "nav": 5.1577,
+          "change_pct": -1.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-09",
+          "nav": 5.7643,
+          "change_pct": 11.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-10",
+          "nav": 5.5281,
+          "change_pct": -4.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-11",
+          "nav": 5.627,
+          "change_pct": 1.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-14",
+          "nav": 5.6598,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-15",
+          "nav": 5.6683,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-16",
+          "nav": 5.5021,
+          "change_pct": -2.93,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-17",
+          "nav": 5.4975,
+          "change_pct": -0.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-18",
+          "nav": 5.4958,
+          "change_pct": -0.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-21",
+          "nav": 5.362,
+          "change_pct": -2.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-22",
+          "nav": 5.4969,
+          "change_pct": 2.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-23",
+          "nav": 5.6216,
+          "change_pct": 2.27,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-24",
+          "nav": 5.7738,
+          "change_pct": 2.71,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-25",
+          "nav": 5.8364,
+          "change_pct": 1.08,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-28",
+          "nav": 5.8331,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-29",
+          "nav": 5.8668,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-04-30",
+          "nav": 5.8725,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-06",
+          "nav": 5.9348,
+          "change_pct": 1.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-07",
+          "nav": 5.9578,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-08",
+          "nav": 6.0213,
+          "change_pct": 1.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-09",
+          "nav": 6.0215,
+          "change_pct": 0.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-12",
+          "nav": 6.2593,
+          "change_pct": 3.95,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-13",
+          "nav": 6.3522,
+          "change_pct": 1.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-14",
+          "nav": 6.3862,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-15",
+          "nav": 6.3917,
+          "change_pct": 0.09,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-16",
+          "nav": 6.4189,
+          "change_pct": 0.43,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-19",
+          "nav": 6.4226,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-20",
+          "nav": 6.4013,
+          "change_pct": -0.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-21",
+          "nav": 6.3171,
+          "change_pct": -1.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-22",
+          "nav": 6.3237,
+          "change_pct": 0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-23",
+          "nav": 6.2667,
+          "change_pct": -0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-26",
+          "nav": 6.2593,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-27",
+          "nav": 6.4074,
+          "change_pct": 2.37,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-28",
+          "nav": 6.3807,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-29",
+          "nav": 6.3942,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-05-30",
+          "nav": 6.3835,
+          "change_pct": -0.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-03",
+          "nav": 6.4809,
+          "change_pct": 1.53,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-04",
+          "nav": 6.4996,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-05",
+          "nav": 6.4441,
+          "change_pct": -0.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-06",
+          "nav": 6.5051,
+          "change_pct": 0.95,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-09",
+          "nav": 6.5192,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-10",
+          "nav": 6.5594,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-11",
+          "nav": 6.5321,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-12",
+          "nav": 6.5478,
+          "change_pct": 0.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-13",
+          "nav": 6.4636,
+          "change_pct": -1.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-16",
+          "nav": 6.5545,
+          "change_pct": 1.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-17",
+          "nav": 6.4863,
+          "change_pct": -1.04,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-18",
+          "nav": 6.4876,
+          "change_pct": 0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-19",
+          "nav": 6.4849,
+          "change_pct": -0.04,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-20",
+          "nav": 6.4621,
+          "change_pct": -0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-23",
+          "nav": 6.5226,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-24",
+          "nav": 6.6081,
+          "change_pct": 1.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-25",
+          "nav": 6.6233,
+          "change_pct": 0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-26",
+          "nav": 6.6791,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-27",
+          "nav": 6.7024,
+          "change_pct": 0.35,
+          "dividend": null
+        },
+        {
+          "date": "2025-06-30",
+          "nav": 6.7407,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-01",
+          "nav": 6.6775,
+          "change_pct": -0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-02",
+          "nav": 6.7262,
+          "change_pct": 0.73,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-03",
+          "nav": 6.7896,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-04",
+          "nav": 6.7905,
+          "change_pct": 0.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-07",
+          "nav": 6.7342,
+          "change_pct": -0.83,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-08",
+          "nav": 6.7417,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-09",
+          "nav": 6.7892,
+          "change_pct": 0.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-10",
+          "nav": 6.7765,
+          "change_pct": -0.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-11",
+          "nav": 6.7594,
+          "change_pct": -0.25,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-14",
+          "nav": 6.7811,
+          "change_pct": 0.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-15",
+          "nav": 6.7897,
+          "change_pct": 0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-16",
+          "nav": 6.7978,
+          "change_pct": 0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-17",
+          "nav": 6.8404,
+          "change_pct": 0.63,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-18",
+          "nav": 6.839,
+          "change_pct": -0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-21",
+          "nav": 6.8743,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-22",
+          "nav": 6.8356,
+          "change_pct": -0.56,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-23",
+          "nav": 6.86,
+          "change_pct": 0.36,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-24",
+          "nav": 6.8742,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-25",
+          "nav": 6.8914,
+          "change_pct": 0.25,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-28",
+          "nav": 6.9194,
+          "change_pct": 0.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-29",
+          "nav": 6.9101,
+          "change_pct": -0.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-30",
+          "nav": 6.9144,
+          "change_pct": 0.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-07-31",
+          "nav": 6.8821,
+          "change_pct": -0.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-01",
+          "nav": 6.749,
+          "change_pct": -1.93,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-04",
+          "nav": 6.8615,
+          "change_pct": 1.67,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-05",
+          "nav": 6.8096,
+          "change_pct": -0.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-06",
+          "nav": 6.898,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-07",
+          "nav": 6.914,
+          "change_pct": 0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-08",
+          "nav": 6.9832,
+          "change_pct": 1.0,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-11",
+          "nav": 6.9618,
+          "change_pct": -0.31,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-12",
+          "nav": 7.0545,
+          "change_pct": 1.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-13",
+          "nav": 7.0509,
+          "change_pct": -0.05,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-14",
+          "nav": 7.0459,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-15",
+          "nav": 7.0135,
+          "change_pct": -0.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-18",
+          "nav": 7.0086,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-19",
+          "nav": 6.9158,
+          "change_pct": -1.32,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-20",
+          "nav": 6.8785,
+          "change_pct": -0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-21",
+          "nav": 6.8395,
+          "change_pct": -0.57,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-22",
+          "nav": 6.945,
+          "change_pct": 1.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-25",
+          "nav": 6.91,
+          "change_pct": -0.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-26",
+          "nav": 6.9409,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-27",
+          "nav": 6.9455,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-28",
+          "nav": 6.9807,
+          "change_pct": 0.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-08-29",
+          "nav": 6.8942,
+          "change_pct": -1.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-01",
+          "nav": 6.8973,
+          "change_pct": 0.04,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-02",
+          "nav": 6.8447,
+          "change_pct": -0.76,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-03",
+          "nav": 6.8996,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-04",
+          "nav": 6.9577,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-05",
+          "nav": 6.9652,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-08",
+          "nav": 6.9936,
+          "change_pct": 0.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-09",
+          "nav": 7.013,
+          "change_pct": 0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-10",
+          "nav": 7.0208,
+          "change_pct": 0.11,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-11",
+          "nav": 7.059,
+          "change_pct": 0.54,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-12",
+          "nav": 7.0874,
+          "change_pct": 0.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-15",
+          "nav": 7.1496,
+          "change_pct": 0.88,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-16",
+          "nav": 7.1408,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-17",
+          "nav": 7.1243,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-18",
+          "nav": 7.1976,
+          "change_pct": 1.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-19",
+          "nav": 7.2509,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-22",
+          "nav": 7.2889,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-23",
+          "nav": 7.2322,
+          "change_pct": -0.78,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-24",
+          "nav": 7.2116,
+          "change_pct": -0.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-25",
+          "nav": 7.184,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-26",
+          "nav": 7.2178,
+          "change_pct": 0.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-29",
+          "nav": 7.2416,
+          "change_pct": 0.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-09-30",
+          "nav": 7.2578,
+          "change_pct": 0.22,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-09",
+          "nav": 7.3801,
+          "change_pct": 1.69,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-10",
+          "nav": 7.1211,
+          "change_pct": -3.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-13",
+          "nav": 7.268,
+          "change_pct": 2.06,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-14",
+          "nav": 7.2204,
+          "change_pct": -0.65,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-15",
+          "nav": 7.2654,
+          "change_pct": 0.62,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-16",
+          "nav": 7.2374,
+          "change_pct": -0.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-17",
+          "nav": 7.281,
+          "change_pct": 0.6,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-20",
+          "nav": 7.3742,
+          "change_pct": 1.28,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-21",
+          "nav": 7.3665,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-22",
+          "nav": 7.2973,
+          "change_pct": -0.94,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-23",
+          "nav": 7.3546,
+          "change_pct": 0.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-24",
+          "nav": 7.4273,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-27",
+          "nav": 7.5531,
+          "change_pct": 1.69,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-28",
+          "nav": 7.6045,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-29",
+          "nav": 7.6341,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-30",
+          "nav": 7.5222,
+          "change_pct": -1.47,
+          "dividend": null
+        },
+        {
+          "date": "2025-10-31",
+          "nav": 7.5585,
+          "change_pct": 0.48,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-03",
+          "nav": 7.5892,
+          "change_pct": 0.41,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-04",
+          "nav": 7.4321,
+          "change_pct": -2.07,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-05",
+          "nav": 7.4841,
+          "change_pct": 0.7,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-06",
+          "nav": 7.3326,
+          "change_pct": -2.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-07",
+          "nav": 7.305,
+          "change_pct": -0.38,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-10",
+          "nav": 7.4701,
+          "change_pct": 2.26,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-11",
+          "nav": 7.4488,
+          "change_pct": -0.29,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-12",
+          "nav": 7.4417,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-13",
+          "nav": 7.291,
+          "change_pct": -2.03,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-14",
+          "nav": 7.2921,
+          "change_pct": 0.02,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-17",
+          "nav": 7.2307,
+          "change_pct": -0.84,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-18",
+          "nav": 7.1487,
+          "change_pct": -1.13,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-19",
+          "nav": 7.1901,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-20",
+          "nav": 7.0228,
+          "change_pct": -2.33,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-21",
+          "nav": 7.0751,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-24",
+          "nav": 7.2573,
+          "change_pct": 2.58,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-25",
+          "nav": 7.2981,
+          "change_pct": 0.56,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-26",
+          "nav": 7.3602,
+          "change_pct": 0.85,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-27",
+          "nav": 7.3591,
+          "change_pct": -0.01,
+          "dividend": null
+        },
+        {
+          "date": "2025-11-28",
+          "nav": 7.4176,
+          "change_pct": 0.79,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-01",
+          "nav": 7.3882,
+          "change_pct": -0.4,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-02",
+          "nav": 7.4544,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-03",
+          "nav": 7.4659,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-04",
+          "nav": 7.457,
+          "change_pct": -0.12,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-05",
+          "nav": 7.4912,
+          "change_pct": 0.46,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-08",
+          "nav": 7.4733,
+          "change_pct": -0.24,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-09",
+          "nav": 7.486,
+          "change_pct": 0.17,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-10",
+          "nav": 7.5153,
+          "change_pct": 0.39,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-11",
+          "nav": 7.4824,
+          "change_pct": -0.44,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-12",
+          "nav": 7.334,
+          "change_pct": -1.98,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-15",
+          "nav": 7.2984,
+          "change_pct": -0.49,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-16",
+          "nav": 7.3113,
+          "change_pct": 0.18,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-17",
+          "nav": 7.1683,
+          "change_pct": -1.96,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-18",
+          "nav": 7.2755,
+          "change_pct": 1.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-19",
+          "nav": 7.3664,
+          "change_pct": 1.25,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-22",
+          "nav": 7.4033,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-23",
+          "nav": 7.4403,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-24",
+          "nav": 7.4546,
+          "change_pct": 0.19,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-25",
+          "nav": 7.4468,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-26",
+          "nav": 7.4397,
+          "change_pct": -0.1,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-29",
+          "nav": 7.4014,
+          "change_pct": -0.51,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-30",
+          "nav": 7.3846,
+          "change_pct": -0.23,
+          "dividend": null
+        },
+        {
+          "date": "2025-12-31",
+          "nav": 7.3167,
+          "change_pct": -0.92,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-05",
+          "nav": 7.3532,
+          "change_pct": 0.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-06",
+          "nav": 7.4152,
+          "change_pct": 0.84,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-07",
+          "nav": 7.4213,
+          "change_pct": 0.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-08",
+          "nav": 7.3797,
+          "change_pct": -0.56,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-09",
+          "nav": 7.4472,
+          "change_pct": 0.91,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-12",
+          "nav": 7.4505,
+          "change_pct": 0.04,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-13",
+          "nav": 7.4366,
+          "change_pct": -0.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-14",
+          "nav": 7.3582,
+          "change_pct": -1.05,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-15",
+          "nav": 7.376,
+          "change_pct": 0.24,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-16",
+          "nav": 7.3714,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-19",
+          "nav": 7.3683,
+          "change_pct": -0.04,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-20",
+          "nav": 7.2036,
+          "change_pct": -2.24,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-21",
+          "nav": 7.3024,
+          "change_pct": 1.37,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-22",
+          "nav": 7.3608,
+          "change_pct": 0.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-23",
+          "nav": 7.3764,
+          "change_pct": 0.21,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-26",
+          "nav": 7.3989,
+          "change_pct": 0.31,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-27",
+          "nav": 7.4657,
+          "change_pct": 0.9,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-28",
+          "nav": 7.4799,
+          "change_pct": 0.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-29",
+          "nav": 7.44,
+          "change_pct": -0.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-01-30",
+          "nav": 7.336,
+          "change_pct": -1.4,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-02",
+          "nav": 7.3904,
+          "change_pct": 0.74,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-03",
+          "nav": 7.2665,
+          "change_pct": -1.68,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-04",
+          "nav": 7.1313,
+          "change_pct": -1.86,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-05",
+          "nav": 7.0366,
+          "change_pct": -1.33,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-06",
+          "nav": 7.1871,
+          "change_pct": 2.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-09",
+          "nav": 7.2357,
+          "change_pct": 0.68,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-10",
+          "nav": 7.1899,
+          "change_pct": -0.63,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-11",
+          "nav": 7.2085,
+          "change_pct": 0.26,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-12",
+          "nav": 7.0636,
+          "change_pct": -2.01,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-13",
+          "nav": 7.0693,
+          "change_pct": 0.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-24",
+          "nav": 7.1396,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-25",
+          "nav": 7.2303,
+          "change_pct": 1.27,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-26",
+          "nav": 7.1377,
+          "change_pct": -1.28,
+          "dividend": null
+        },
+        {
+          "date": "2026-02-27",
+          "nav": 7.1161,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-02",
+          "nav": 7.1258,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-03",
+          "nav": 7.0341,
+          "change_pct": -1.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-04",
+          "nav": 7.143,
+          "change_pct": 1.55,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-05",
+          "nav": 7.1107,
+          "change_pct": -0.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-06",
+          "nav": 7.0066,
+          "change_pct": -1.46,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-09",
+          "nav": 7.1102,
+          "change_pct": 1.48,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-10",
+          "nav": 7.0907,
+          "change_pct": -0.27,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-11",
+          "nav": 7.0863,
+          "change_pct": -0.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-12",
+          "nav": 6.9687,
+          "change_pct": -1.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-13",
+          "nav": 6.9302,
+          "change_pct": -0.55,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-16",
+          "nav": 7.0122,
+          "change_pct": 1.18,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-17",
+          "nav": 7.0381,
+          "change_pct": 0.37,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-18",
+          "nav": 6.9328,
+          "change_pct": -1.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-19",
+          "nav": 6.9195,
+          "change_pct": -0.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-20",
+          "nav": 6.7845,
+          "change_pct": -1.95,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-23",
+          "nav": 6.8783,
+          "change_pct": 1.38,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-24",
+          "nav": 6.8167,
+          "change_pct": -0.9,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-25",
+          "nav": 6.8582,
+          "change_pct": 0.61,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-26",
+          "nav": 6.7095,
+          "change_pct": -2.17,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-27",
+          "nav": 6.5885,
+          "change_pct": -1.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-30",
+          "nav": 6.5452,
+          "change_pct": -0.66,
+          "dividend": null
+        },
+        {
+          "date": "2026-03-31",
+          "nav": 6.7635,
+          "change_pct": 3.34,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-01",
+          "nav": 6.8274,
+          "change_pct": 0.94,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-02",
+          "nav": 6.8214,
+          "change_pct": -0.09,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-03",
+          "nav": 6.8259,
+          "change_pct": 0.07,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-07",
+          "nav": 6.8617,
+          "change_pct": 0.52,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-08",
+          "nav": 7.0417,
+          "change_pct": 2.62,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-09",
+          "nav": 7.089,
+          "change_pct": 0.67,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-10",
+          "nav": 7.0995,
+          "change_pct": 0.15,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-13",
+          "nav": 7.1741,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-14",
+          "nav": 7.297,
+          "change_pct": 1.71,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-15",
+          "nav": 7.3986,
+          "change_pct": 1.39,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-16",
+          "nav": 7.4376,
+          "change_pct": 0.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-17",
+          "nav": 7.5344,
+          "change_pct": 1.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-20",
+          "nav": 7.5146,
+          "change_pct": -0.26,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-21",
+          "nav": 7.4772,
+          "change_pct": -0.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-22",
+          "nav": 7.6078,
+          "change_pct": 1.75,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-23",
+          "nav": 7.5671,
+          "change_pct": -0.53,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-24",
+          "nav": 7.7135,
+          "change_pct": 1.93,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-27",
+          "nav": 7.7008,
+          "change_pct": -0.16,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-28",
+          "nav": 7.6251,
+          "change_pct": -0.98,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-29",
+          "nav": 7.6704,
+          "change_pct": 0.59,
+          "dividend": null
+        },
+        {
+          "date": "2026-04-30",
+          "nav": 7.7463,
+          "change_pct": 0.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-06",
+          "nav": 8.0609,
+          "change_pct": 4.06,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-07",
+          "nav": 8.043,
+          "change_pct": -0.22,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-08",
+          "nav": 8.2334,
+          "change_pct": 2.37,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-11",
+          "nav": 8.2533,
+          "change_pct": 0.24,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-12",
+          "nav": 8.1765,
+          "change_pct": -0.93,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-13",
+          "nav": 8.2621,
+          "change_pct": 1.05,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-14",
+          "nav": 8.3191,
+          "change_pct": 0.69,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-15",
+          "nav": 8.1939,
+          "change_pct": -1.5,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-18",
+          "nav": 8.1598,
+          "change_pct": -0.42,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-19",
+          "nav": 8.1029,
+          "change_pct": -0.7,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-20",
+          "nav": 8.2382,
+          "change_pct": 1.67,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-21",
+          "nav": 8.2497,
+          "change_pct": 0.14,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-22",
+          "nav": 8.2866,
+          "change_pct": 0.45,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-25",
+          "nav": 8.2801,
+          "change_pct": -0.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-26",
+          "nav": 8.4202,
+          "change_pct": 1.69,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-27",
+          "nav": 8.4132,
+          "change_pct": -0.08,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-28",
+          "nav": 8.4773,
+          "change_pct": 0.76,
+          "dividend": null
+        },
+        {
+          "date": "2026-05-29",
+          "nav": 8.5006,
+          "change_pct": 0.27,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-01",
+          "nav": 8.5489,
+          "change_pct": 0.57,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-02",
+          "nav": 8.5927,
+          "change_pct": 0.51,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-03",
+          "nav": 8.5667,
+          "change_pct": -0.3,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-04",
+          "nav": 8.5243,
+          "change_pct": -0.49,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-05",
+          "nav": 8.1154,
+          "change_pct": -4.8,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-08",
+          "nav": 8.2439,
+          "change_pct": 1.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-09",
+          "nav": 8.1456,
+          "change_pct": -1.19,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-10",
+          "nav": 7.9837,
+          "change_pct": -1.99,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-11",
+          "nav": 8.2442,
+          "change_pct": 3.26,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-12",
+          "nav": 8.292,
+          "change_pct": 0.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-15",
+          "nav": 8.539,
+          "change_pct": 2.98,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-16",
+          "nav": 8.3791,
+          "change_pct": -1.87,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-17",
+          "nav": 8.2951,
+          "change_pct": -1.0,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-18",
+          "nav": 8.5042,
+          "change_pct": 2.52,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-22",
+          "nav": 8.49,
+          "change_pct": -0.17,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-23",
+          "nav": 8.2111,
+          "change_pct": -3.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-24",
+          "nav": 8.1772,
+          "change_pct": -0.41,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-25",
+          "nav": 8.2413,
+          "change_pct": 0.78,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-26",
+          "nav": 8.1427,
+          "change_pct": -1.2,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-29",
+          "nav": 8.3281,
+          "change_pct": 2.28,
+          "dividend": null
+        },
+        {
+          "date": "2026-06-30",
+          "nav": 8.4599,
+          "change_pct": 1.58,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-01",
+          "nav": 8.3245,
+          "change_pct": -1.6,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-02",
+          "nav": 8.189,
+          "change_pct": -1.63,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-03",
+          "nav": 8.1836,
+          "change_pct": -0.07,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-06",
+          "nav": 8.2891,
+          "change_pct": 1.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-07",
+          "nav": 8.1385,
+          "change_pct": -1.82,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-08",
+          "nav": 8.1622,
+          "change_pct": 0.29,
+          "dividend": null
+        },
+        {
+          "date": "2026-07-09",
+          "nav": 8.2898,
+          "change_pct": 1.56,
+          "dividend": null
+        }
+      ],
+      "returns": {
+        "last_1_month_pct": 1.77,
+        "last_3_month_pct": 16.94,
+        "last_6_month_pct": 11.31,
+        "last_1_year_pct": 22.1
+      },
+      "source_url": "https://fund.eastmoney.com/270042.html",
+      "top_holdings": [],
+      "holdings_report_date": "2022-06-30",
+      "scale": "0.78",
+      "scale_date": "2026-03-31",
+      "warnings": []
+    }
+  ],
+  "overlap_holdings": [],
+  "status": {
+    "ok": true,
+    "publishable": true,
+    "success_count": 3,
+    "success_rate": 1.0,
+    "min_success_rate": 0.5,
+    "errors": []
+  }
+};

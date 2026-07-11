@@ -1,3 +1,3 @@
 # FinancialAssistant PWA
 
-This repository only hosts the static PWA shell. Runtime fund data is loaded from the configured Gitee raw data endpoint.
+This repository hosts the static PWA shell and a same-origin copy of the latest runtime fund data.
