@@ -1,4 +1,4 @@
-const CACHE_NAME = "fund-radar-v1";
+const CACHE_NAME = "fund-radar-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -32,7 +32,10 @@ async function networkFirst(request) {
   const cache = await caches.open(CACHE_NAME);
   try {
     const fresh = await fetch(request);
-    if (fresh && fresh.ok) {
+    if (!fresh || (!fresh.ok && fresh.type !== "opaque")) {
+      throw new Error(`network response was not successful: ${fresh ? fresh.status : "unknown"}`);
+    }
+    if (fresh.ok || fresh.type === "opaque") {
       cache.put(request, fresh.clone());
     }
     return fresh;
@@ -54,9 +57,15 @@ async function cacheFirst(request) {
   return fresh;
 }
 
+function isAppShellRequest(request) {
+  const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return false;
+  return request.mode === "navigate" || /\/(index\.html|manifest\.json|service-worker\.js)$/.test(url.pathname);
+}
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
-  if (isDataRequest(event.request)) {
+  if (isDataRequest(event.request) || isAppShellRequest(event.request)) {
     event.respondWith(networkFirst(event.request));
     return;
   }

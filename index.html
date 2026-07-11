@@ -848,6 +848,25 @@
       return `${url}${sep}ts=${Date.now()}`;
     }
 
+    function validateData(data) {
+      if (!data || typeof data !== "object" || Array.isArray(data)) {
+        throw new Error("data payload must be an object");
+      }
+      if (typeof data.generated_at !== "string" || !data.generated_at.trim()) {
+        throw new Error("data payload is missing generated_at");
+      }
+      if (!Array.isArray(data.funds)) {
+        throw new Error("data payload is missing the funds array");
+      }
+      const invalidFund = data.funds.find(
+        (fund) => !fund || typeof fund !== "object" || !/^\d{6}$/.test(String(fund.code || ""))
+      );
+      if (invalidFund) {
+        throw new Error("data payload contains an invalid fund code");
+      }
+      return data;
+    }
+
     async function fetchJson(url) {
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), CONFIG.requestTimeoutMs);
@@ -868,20 +887,28 @@
       return new Promise((resolve, reject) => {
         const script = document.createElement("script");
         const previous = window.__FUND_DATA__;
+        let settled = false;
+        const finish = (callback, value) => {
+          if (settled) return;
+          settled = true;
+          clearTimeout(timer);
+          script.remove();
+          callback(value);
+        };
+        const timer = setTimeout(
+          () => finish(reject, new Error(`script load timed out: ${url}`)),
+          CONFIG.requestTimeoutMs
+        );
         script.src = withTs(url);
         script.async = true;
         script.onload = () => {
           if (window.__FUND_DATA__ && window.__FUND_DATA__ !== previous) {
-            resolve(window.__FUND_DATA__);
+            finish(resolve, window.__FUND_DATA__);
           } else {
-            reject(new Error("data.js did not expose window.__FUND_DATA__"));
+            finish(reject, new Error("data.js did not expose window.__FUND_DATA__"));
           }
-          script.remove();
         };
-        script.onerror = () => {
-          script.remove();
-          reject(new Error(`script load failed: ${url}`));
-        };
+        script.onerror = () => finish(reject, new Error(`script load failed: ${url}`));
         document.head.appendChild(script);
       });
     }
@@ -894,7 +921,7 @@
 
       for (const url of dataUrls) {
         try {
-          const data = await fetchJson(url);
+          const data = validateData(await fetchJson(url));
           localStorage.setItem("fundRadar:lastData", JSON.stringify(data));
           return { data, source: url };
         } catch (error) {
@@ -904,7 +931,7 @@
 
       for (const url of scriptUrls) {
         try {
-          const data = await loadScriptData(url);
+          const data = validateData(await loadScriptData(url));
           localStorage.setItem("fundRadar:lastData", JSON.stringify(data));
           return { data, source: url };
         } catch (error) {
@@ -913,8 +940,8 @@
       }
 
       try {
-        const cached = JSON.parse(localStorage.getItem("fundRadar:lastData"));
-        if (cached) return { data: cached, source: "本机缓存" };
+        const cached = validateData(JSON.parse(localStorage.getItem("fundRadar:lastData")));
+        return { data: cached, source: "本机缓存" };
       } catch (_) {
         // Ignore broken local cache.
       }
@@ -958,6 +985,8 @@
       const overview = data.overview || {};
       const avg = overview.avg_estimate_pct;
       const isDemo = data.version === "demo";
+      const hasStaleData = Number(overview.stale_count || 0) > 0;
+      const modeLabel = isDemo ? "演示" : hasStaleData ? "含缓存" : "实盘";
       const healthScore = health(data);
       return `
         <section class="hero">
@@ -968,7 +997,7 @@
             </div>
             <div class="hero-status">
               <span class="status-pill ${healthScore >= 90 ? "good" : "warn"}">${healthScore}% 健康</span>
-              <span class="status-pill ${isDemo ? "warn" : "good"}">${isDemo ? "演示" : "实盘"}</span>
+              <span class="status-pill ${isDemo || hasStaleData ? "warn" : "good"}">${modeLabel}</span>
             </div>
           </div>
           <div class="metric-strip">
@@ -1224,12 +1253,17 @@
 
     function renderData(data) {
       const errors = (data.status && data.status.errors) || [];
+      const status = data.status || {};
       const source = data.source || {};
+      const successRate = asNumber(status.success_rate);
+      const publishable = status.publishable;
       const lines = [
         ["更新时间", data.generated_at || "--"],
         ["数据入口", state.sourceLabel || "--"],
         ["主来源", source.primary || "--"],
-        ["状态", data.status && data.status.ok ? "正常" : "存在异常"],
+        ["状态", status.ok ? "正常" : "存在异常"],
+        ["抓取成功率", successRate === null ? "--" : `${(successRate * 100).toFixed(0)}%`],
+        ["发布质量", publishable === undefined ? "--" : publishable ? "达到门槛" : "未达到门槛"],
         ["提示", source.disclaimer || "--"]
       ];
       return `
