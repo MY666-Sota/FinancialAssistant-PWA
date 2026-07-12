@@ -1,6 +1,6 @@
 window.__FUND_DATA__ = {
   "version": "1.1.0",
-  "generated_at": "2026-07-12T18:01:23+08:00",
+  "generated_at": "2026-07-12T20:03:12+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "primary": "eastmoney_tiantian_public_endpoints",
