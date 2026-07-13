@@ -1,6 +1,6 @@
 window.__FUND_DATA__ = {
   "version": "1.1.0",
-  "generated_at": "2026-07-12T20:03:12+08:00",
+  "generated_at": "2026-07-13T19:29:07+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "primary": "eastmoney_tiantian_public_endpoints",
@@ -11,7 +11,7 @@ window.__FUND_DATA__ = {
     "ok_count": 3,
     "stale_count": 0,
     "estimate_count": 3,
-    "avg_estimate_pct": -1.31,
+    "avg_estimate_pct": -1.53,
     "up_count": 1,
     "down_count": 2,
     "flat_count": 0
@@ -65,15 +65,15 @@ window.__FUND_DATA__ = {
           "confidence": "disclosure_mirror"
         }
       ],
-      "nav": 1.9713,
-      "nav_raw": "1.9713",
-      "nav_date": "2026-07-09",
+      "nav": 1.9159,
+      "nav_raw": "1.9159",
+      "nav_date": "2026-07-10",
       "estimate": {
-        "value": 1.9128,
-        "value_raw": "1.9128",
-        "pct": -2.97,
-        "pct_raw": "-2.97",
-        "time": "2026-07-10 15:00",
+        "value": 1.8592,
+        "value_raw": "1.8592",
+        "pct": -2.96,
+        "pct_raw": "-2.96",
+        "time": "2026-07-13 15:00",
         "is_estimated": true,
         "source": "tiantian_fundgz"
       },
@@ -82,7 +82,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30563849",
           "name": "李俊",
-          "work_time": "8年又215天",
+          "work_time": "8年又216天",
           "fund_size": "787.57亿(33只基金)",
           "power": {
             "avr": "81.72",
@@ -3359,15 +3359,15 @@ window.__FUND_DATA__ = {
           "confidence": "disclosure_mirror"
         }
       ],
-      "nav": 1.1674,
-      "nav_raw": "1.1674",
-      "nav_date": "2026-07-09",
+      "nav": 1.1531,
+      "nav_raw": "1.1531",
+      "nav_date": "2026-07-10",
       "estimate": {
-        "value": 1.1526,
-        "value_raw": "1.1526",
-        "pct": -1.26,
-        "pct_raw": "-1.26",
-        "time": "2026-07-10 15:00",
+        "value": 1.1307,
+        "value_raw": "1.1307",
+        "pct": -1.95,
+        "pct_raw": "-1.95",
+        "time": "2026-07-13 15:00",
         "is_estimated": true,
         "source": "tiantian_fundgz"
       },
@@ -3376,7 +3376,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30350672",
           "name": "骆帅",
-          "work_time": "11年又48天",
+          "work_time": "11年又49天",
           "fund_size": "99.14亿(10只基金)",
           "power": {
             "avr": "80.97",
@@ -6609,7 +6609,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30283311",
           "name": "刘杰",
-          "work_time": "12年又105天",
+          "work_time": "12年又106天",
           "fund_size": "1071.35亿(41只基金)",
           "power": {
             "avr": "87.78",
