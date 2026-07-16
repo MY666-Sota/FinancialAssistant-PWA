@@ -1,6 +1,6 @@
 window.__FUND_DATA__ = {
   "version": "1.1.0",
-  "generated_at": "2026-07-15T18:15:54+08:00",
+  "generated_at": "2026-07-16T18:21:27+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "primary": "eastmoney_tiantian_public_endpoints",
@@ -11,9 +11,9 @@ window.__FUND_DATA__ = {
     "ok_count": 3,
     "stale_count": 0,
     "estimate_count": 3,
-    "avg_estimate_pct": -0.56,
-    "up_count": 1,
-    "down_count": 2,
+    "avg_estimate_pct": -1.21,
+    "up_count": 0,
+    "down_count": 3,
     "flat_count": 0
   },
   "portfolio": {
@@ -65,15 +65,15 @@ window.__FUND_DATA__ = {
           "confidence": "disclosure_mirror"
         }
       ],
-      "nav": 1.8931,
-      "nav_raw": "1.8931",
-      "nav_date": "2026-07-14",
+      "nav": 1.8454,
+      "nav_raw": "1.8454",
+      "nav_date": "2026-07-15",
       "estimate": {
-        "value": 1.8428,
-        "value_raw": "1.8428",
-        "pct": -2.66,
-        "pct_raw": "-2.66",
-        "time": "2026-07-15 15:00",
+        "value": 1.7993,
+        "value_raw": "1.7993",
+        "pct": -2.5,
+        "pct_raw": "-2.50",
+        "time": "2026-07-16 15:00",
         "is_estimated": true,
         "source": "tiantian_fundgz"
       },
@@ -82,7 +82,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30563849",
           "name": "李俊",
-          "work_time": "8年又218天",
+          "work_time": "8年又219天",
           "fund_size": "787.57亿(33只基金)",
           "power": {
             "avr": "81.72",
@@ -107,17 +107,11 @@ window.__FUND_DATA__ = {
               66.4,
               98.2
             ],
-            "jzrq": "2026-07-14"
+            "jzrq": "2026-07-15"
           }
         }
       ],
       "net_worth_trend": [
-        {
-          "date": "2024-05-24",
-          "nav": 0.6836,
-          "change_pct": -2.47,
-          "dividend": null
-        },
         {
           "date": "2024-05-27",
           "nav": 0.6921,
@@ -3231,13 +3225,19 @@ window.__FUND_DATA__ = {
           "nav": 1.8931,
           "change_pct": 1.65,
           "dividend": null
+        },
+        {
+          "date": "2026-07-15",
+          "nav": 1.8454,
+          "change_pct": -2.52,
+          "dividend": null
         }
       ],
       "returns": {
-        "last_1_month_pct": 12.12,
-        "last_3_month_pct": 25.2,
-        "last_6_month_pct": 22.55,
-        "last_1_year_pct": 108.17
+        "last_1_month_pct": 3.67,
+        "last_3_month_pct": 22.89,
+        "last_6_month_pct": 19.43,
+        "last_1_year_pct": 95.3
       },
       "source_url": "https://fund.eastmoney.com/008585.html",
       "top_holdings": [
@@ -3359,15 +3359,15 @@ window.__FUND_DATA__ = {
           "confidence": "disclosure_mirror"
         }
       ],
-      "nav": 1.141,
-      "nav_raw": "1.1410",
-      "nav_date": "2026-07-14",
+      "nav": 1.157,
+      "nav_raw": "1.1570",
+      "nav_date": "2026-07-15",
       "estimate": {
-        "value": 1.1403,
-        "value_raw": "1.1403",
-        "pct": -0.06,
-        "pct_raw": "-0.06",
-        "time": "2026-07-15 15:00",
+        "value": 1.1469,
+        "value_raw": "1.1469",
+        "pct": -0.87,
+        "pct_raw": "-0.87",
+        "time": "2026-07-16 15:00",
         "is_estimated": true,
         "source": "tiantian_fundgz"
       },
@@ -3376,7 +3376,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30350672",
           "name": "骆帅",
-          "work_time": "11年又51天",
+          "work_time": "11年又52天",
           "fund_size": "99.14亿(10只基金)",
           "power": {
             "avr": "80.97",
@@ -3401,17 +3401,11 @@ window.__FUND_DATA__ = {
               79.8,
               70.1
             ],
-            "jzrq": "2026-07-14"
+            "jzrq": "2026-07-15"
           }
         }
       ],
       "net_worth_trend": [
-        {
-          "date": "2024-05-24",
-          "nav": 0.7918,
-          "change_pct": -0.63,
-          "dividend": null
-        },
         {
           "date": "2024-05-27",
           "nav": 0.8081,
@@ -6525,13 +6519,19 @@ window.__FUND_DATA__ = {
           "nav": 1.141,
           "change_pct": 0.39,
           "dividend": null
+        },
+        {
+          "date": "2026-07-15",
+          "nav": 1.157,
+          "change_pct": 1.4,
+          "dividend": null
         }
       ],
       "returns": {
-        "last_1_month_pct": -1.41,
-        "last_3_month_pct": -6.51,
-        "last_6_month_pct": -14.08,
-        "last_1_year_pct": 13.84
+        "last_1_month_pct": -2.5,
+        "last_3_month_pct": -4.84,
+        "last_6_month_pct": -12.9,
+        "last_1_year_pct": 14.17
       },
       "source_url": "https://fund.eastmoney.com/012588.html",
       "top_holdings": [],
@@ -6592,15 +6592,15 @@ window.__FUND_DATA__ = {
           "confidence": "disclosure_mirror"
         }
       ],
-      "nav": 8.1504,
-      "nav_raw": "8.1504",
-      "nav_date": "2026-07-13",
+      "nav": 8.241,
+      "nav_raw": "8.2410",
+      "nav_date": "2026-07-14",
       "estimate": {
-        "value": 8.2356,
-        "value_raw": "8.2356",
-        "pct": 1.05,
-        "pct_raw": "1.05",
-        "time": "2026-07-15 04:00",
+        "value": 8.2189,
+        "value_raw": "8.2189",
+        "pct": -0.27,
+        "pct_raw": "-0.27",
+        "time": "2026-07-16 04:00",
         "is_estimated": true,
         "source": "tiantian_fundgz"
       },
@@ -6609,7 +6609,7 @@ window.__FUND_DATA__ = {
         {
           "id": "30283311",
           "name": "刘杰",
-          "work_time": "12年又108天",
+          "work_time": "12年又109天",
           "fund_size": "1071.35亿(41只基金)",
           "power": {
             "avr": "87.78",
@@ -6634,17 +6634,11 @@ window.__FUND_DATA__ = {
               77.0,
               91.2
             ],
-            "jzrq": "2026-07-14"
+            "jzrq": "2026-07-15"
           }
         }
       ],
       "net_worth_trend": [
-        {
-          "date": "2024-05-23",
-          "nav": 5.6248,
-          "change_pct": -0.39,
-          "dividend": null
-        },
         {
           "date": "2024-05-24",
           "nav": 5.6799,
@@ -9758,13 +9752,19 @@ window.__FUND_DATA__ = {
           "nav": 8.1504,
           "change_pct": -1.93,
           "dividend": null
+        },
+        {
+          "date": "2026-07-14",
+          "nav": 8.241,
+          "change_pct": 1.11,
+          "dividend": null
         }
       ],
       "returns": {
-        "last_1_month_pct": -1.71,
-        "last_3_month_pct": 13.61,
-        "last_6_month_pct": 9.6,
-        "last_1_year_pct": 20.58
+        "last_1_month_pct": -0.62,
+        "last_3_month_pct": 12.94,
+        "last_6_month_pct": 12.0,
+        "last_1_year_pct": 21.53
       },
       "source_url": "https://fund.eastmoney.com/270042.html",
       "top_holdings": [],
