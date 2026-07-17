@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T18:21:27+08:00",
+  "generated_at": "2026-07-17T18:12:06+08:00",
   "ok": true,
   "publishable": true,
   "success_count": 3,
@@ -10,7 +10,7 @@
     "ok_count": 3,
     "stale_count": 0,
     "estimate_count": 3,
-    "avg_estimate_pct": -1.21,
+    "avg_estimate_pct": -4.03,
     "up_count": 0,
     "down_count": 3,
     "flat_count": 0
