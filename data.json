@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "generated_at": "2026-07-18T17:44:58+08:00",
+  "generated_at": "2026-07-19T18:00:54+08:00",
   "timezone": "Asia/Shanghai",
   "source": {
     "primary": "eastmoney_tiantian_public_endpoints",
@@ -82,7 +82,7 @@
         {
           "id": "30563849",
           "name": "李俊",
-          "work_time": "8年又221天",
+          "work_time": "8年又222天",
           "fund_size": "787.57亿(33只基金)",
           "power": {
             "avr": "81.72",
@@ -3376,7 +3376,7 @@
         {
           "id": "30350672",
           "name": "骆帅",
-          "work_time": "11年又54天",
+          "work_time": "11年又55天",
           "fund_size": "99.14亿(10只基金)",
           "power": {
             "avr": "80.97",
@@ -6609,7 +6609,7 @@
         {
           "id": "30283311",
           "name": "刘杰",
-          "work_time": "12年又111天",
+          "work_time": "12年又112天",
           "fund_size": "1071.35亿(41只基金)",
           "power": {
             "avr": "87.78",
